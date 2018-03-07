@@ -33,6 +33,7 @@ $RECYCLE.BIN/
 .vs/
 obj/
 UnityPackageManager/
+Library/
 *.csproj
 *.sln
 *.userprefs
