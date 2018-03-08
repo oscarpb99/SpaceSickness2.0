@@ -5,11 +5,12 @@ using UnityEngine;
 public class CambioGravedad : MonoBehaviour {
 	Rigidbody2D rb;
 	public float margenmovimiento;//velocidad máxima a la que se puede cambiar la direccion de la gravedad. Valor positivo.
-	//Disponibilidad de cambio de gravedad en cada una de las 4 direcciones, en el juego completo dependen de las variables guardadas en cada sala.
+	//Disponibilidad de cambio de gravedad en cada una de las 4 direcciones, dependen de las variables guardadas en cada sala.
 	bool gravedadArriba;
 	bool gravedadAbajo;
 	bool gravedadIzquierda;
 	bool gravedadDerecha;
+	bool cayendo=false; //declara si el personaje está cayendo
 	public GameObject sala;
 
 
@@ -25,6 +26,14 @@ public class CambioGravedad : MonoBehaviour {
 			CambiarGravedad ();
 		}
 		GameManager.instance.grav = sala.GetComponent<GuardaGravedad> ().gravedadsala;//cambia el estado de gravedad que guarda el gamemanager por el de la sala actual
+
+		CompruebaCaida (ref cayendo);
+
+		if (cayendo)
+			GetComponentInParent<PlayerController> ().controlmovimiento = false;
+		else
+			GetComponentInParent<PlayerController> ().controlmovimiento = true;
+
 	}
 
 	void CambiarGravedad(){
@@ -51,4 +60,38 @@ public class CambioGravedad : MonoBehaviour {
 
 
 	}
+		
+	void CompruebaCaida(ref bool cayendo){
+		switch (sala.GetComponent<GuardaGravedad> ().Direccion) {
+		case "arriba":
+			if (rb.velocity.y > 0)
+				cayendo = true;
+			else
+				cayendo = false;
+			break;
+
+		case "abajo":
+			if (rb.velocity.y < 0)
+				cayendo = true;
+			else
+				cayendo = false;
+			break;
+
+		case "derecha":
+			if (rb.velocity.x > 0)
+				cayendo = true;
+			else
+				cayendo = false;
+			break;
+
+		case "izquierda":
+			if (rb.velocity.x < 0)
+				cayendo = true;
+			else
+				cayendo = false;
+			break;
+
+		}
+	}
+
 }
