@@ -7,7 +7,7 @@ public class Muerte : MonoBehaviour {
 	public GameObject gb;
 
 	// Use this for initialization
-	void Start () {
+/*	void Start () {
 		
 	}
 	
@@ -28,5 +28,5 @@ public class Muerte : MonoBehaviour {
 			gb.transform.position = Checkpoints.ActivateCheckPoints();
 			
 		}
-	}
+	}*/
 }

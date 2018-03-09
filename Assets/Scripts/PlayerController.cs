@@ -4,10 +4,32 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 	public float speed = 2f;
+	public bool controlmovimiento=false;
+	GameObject salaactual;
+	Rigidbody2D rb;
 
-	void Update () {
-		transform.Translate (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0, 0);
+
+	void Awake () {
+		rb = GetComponentInChildren<Rigidbody2D> ();
 	}
+	void Update () {
+		if(controlmovimiento)
+		Movimiento ();
+
+		if (Mathf.Abs (rb.velocity.x) <= 0.3f && Mathf.Abs (rb.velocity.y) <= 0.3f)
+			rb.velocity = new Vector2 (0, 0);
+	}
+
+	void Movimiento () {
+		salaactual = this.GetComponentInChildren<CambioGravedad> ().sala;
+		if (salaactual.GetComponent<GuardaGravedad> ().Direccion == "derecha")
+			transform.Translate (new Vector3 (0, Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0));
+		else if (salaactual.GetComponent<GuardaGravedad> ().Direccion == "izquierda")
+			transform.Translate (new Vector3 (0, Input.GetAxis ("Horizontal") * -speed * Time.deltaTime, 0));
+		else transform.Translate(new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime,0, 0));
+
+	}
+/*
 	public static Vector2 GetActiveCheckPointPosition ()
 	{
 		Vector2 result = new Vector2 (0, 0);
@@ -20,5 +42,11 @@ public class PlayerController : MonoBehaviour {
 			}
 		}
 		return result;
-	}
+	}*/
+
 }
+
+
+	
+
+
