@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour {
 
 
 	void Awake () {
-		rb = GetComponentInChildren<Rigidbody2D> ();
+		rb = GetComponent<Rigidbody2D> ();
 	}
 	void Update () {
 		if(controlmovimiento)
@@ -19,9 +19,9 @@ public class PlayerController : MonoBehaviour {
 		if (Mathf.Abs (rb.velocity.x) <= 0.3f && Mathf.Abs (rb.velocity.y) <= 0.3f)
 			rb.velocity = new Vector2 (0, 0);
 	}
-
+		
 	void Movimiento () {
-		salaactual = this.GetComponentInChildren<CambioGravedad> ().sala;
+		salaactual = this.GetComponent<CambioGravedad> ().sala;
 		if (salaactual.GetComponent<GuardaGravedad> ().Direccion == "derecha")
 			transform.Translate (new Vector3 (0, Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0));
 		else if (salaactual.GetComponent<GuardaGravedad> ().Direccion == "izquierda")
@@ -29,6 +29,16 @@ public class PlayerController : MonoBehaviour {
 		else transform.Translate(new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime,0, 0));
 
 	}
+
+	void OnTriggerEnter2D (Collider2D col) {
+		if (col.gameObject.tag == "enemy")//cuando colisiona con un enemigo
+			Die ();
+	}
+
+	void Die(){//método de muerte del jugador
+		Destroy (gameObject);
+	}
+		
 /*
 	public static Vector2 GetActiveCheckPointPosition ()
 	{

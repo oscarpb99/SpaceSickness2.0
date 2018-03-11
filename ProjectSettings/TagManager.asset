@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - pared
+  - sala
+  - CheckPoints
+  - Bad Floor
+  - player
+  - obj
+  - enemy
   layers:
   - Default
   - TransparentFX
