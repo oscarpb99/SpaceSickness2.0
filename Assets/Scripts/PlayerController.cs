@@ -22,12 +22,9 @@ public class PlayerController : MonoBehaviour {
 
 	void Movimiento () {
 		salaactual = this.GetComponentInChildren<CambioGravedad> ().sala;
-		if (salaactual.GetComponent<GuardaGravedad> ().Direccion == "derecha")
 			transform.Translate (new Vector3 (0, Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0));
-		else if (salaactual.GetComponent<GuardaGravedad> ().Direccion == "izquierda")
 			transform.Translate (new Vector3 (0, Input.GetAxis ("Horizontal") * -speed * Time.deltaTime, 0));
 		else transform.Translate(new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime,0, 0));
-
 	}
 
 

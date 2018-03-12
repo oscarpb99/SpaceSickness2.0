@@ -8,17 +8,18 @@ public class GuardaGravedad : MonoBehaviour {
 	public bool gravderecha;
 	public bool gravizquierda;
 	public Vector2 gravedadsala;//guarda la direccion de la gravedad propia de la sala
-	public string Direccion;
 
 	void Update(){
+    private void Start()
+    {
+        GameManager.instance.SetCurrentGravity(this);
+    }
+
+    void Update(){
 		if (gravedadsala.x < 0)
-			Direccion = "izquierda";
 		else if (gravedadsala.x > 0)
-			Direccion = "derecha";
 		else if (gravedadsala.y > 0)
-			Direccion = "arriba";
 		else if  (gravedadsala.y < 0)
-			Direccion = "abajo";
 	}
 	 
 

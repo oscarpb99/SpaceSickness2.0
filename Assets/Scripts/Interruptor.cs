@@ -38,6 +38,7 @@ public class Interruptor : MonoBehaviour {
     Vector3 thisExtent;
     Vector3 thisPosition;
     public PruebaTrigger objeto;
+    private DireccionGravedad currentGravity;
     private GameObject currentObject;   // Objeto que está presionando el interruptor.
     public float onDelay;               // Lo que tardan en responder los objetos al presionar el interruptor.
     public float offDelay;              // Lo que tardan en responder los objetos al dejar de presionar el interruptor.
@@ -52,15 +53,38 @@ public class Interruptor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
 	}
 
     //La función detecta si el objeto ha colisionado con el botón desde arriba.
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        currentGravity = GameManager.instance.GetDirection();
         Vector3 extent = collision.collider.bounds.extents;
         Vector3 position = collision.transform.position;
-        if (position.y - extent.y >= thisPosition.y + thisExtent.y - 0.1)
+        bool activar = false;
+        switch (currentGravity)
+        {
+            // probar
+            case DireccionGravedad.Abajo:
+                if (position.y - extent.y >= thisPosition.y + (thisExtent.y - 0.1))
+                    activar = true;
+                break;
+            case DireccionGravedad.Arriba:
+                if (position.y + extent.y <= thisPosition.y - (thisExtent.y - 0.1))
+                    activar = true;
+                break;
+            case DireccionGravedad.Izquierda:
+                if (position.x - extent.x >= thisPosition.x + (thisExtent.x - 0.1))
+                    activar = true;
+                break;
+            case DireccionGravedad.Derecha:
+                if (position.x + extent.x <= thisPosition.y - (thisExtent.x - 0.1))
+                    activar = true;
+                break;
+            default:
+                break;
+        }
+        if (activar)
         {
             currentObject = collision.gameObject;
             foreach (Observer observer in observers)
@@ -85,13 +109,13 @@ public class Interruptor : MonoBehaviour {
     }
 
     //Añade un observador.
-    public void addObserver(MonoBehaviour b, string enF, string exF = null)
+    public void AddObserver(MonoBehaviour b, string enF, string exF = null)
     {
         observers.Add(new Observer(b, enF, exF));
     }
 
     //Elimina un observador.
-    public void deleteObserver(int i)
+    public void DeleteObserver(int i)
     {
         observers.RemoveAt(i);
     }
