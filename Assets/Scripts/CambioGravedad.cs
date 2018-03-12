@@ -62,24 +62,29 @@ public class CambioGravedad : MonoBehaviour {
 	}
 		
 	void CompruebaCaida(ref bool cayendo){
+		switch (sala.GetComponent<GuardaGravedad> ().GetDireccion()) {
+		case DireccionGravedad.Arriba:
 			if (rb.velocity.y > 0)
 				cayendo = true;
 			else
 				cayendo = false;
 			break;
 
+		case DireccionGravedad.Abajo:
 			if (rb.velocity.y < 0)
 				cayendo = true;
 			else
 				cayendo = false;
 			break;
 
+		case DireccionGravedad.Derecha:
 			if (rb.velocity.x > 0)
 				cayendo = true;
 			else
 				cayendo = false;
 			break;
 
+		case DireccionGravedad.Izquierda:
 			if (rb.velocity.x < 0)
 				cayendo = true;
 			else
