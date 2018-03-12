@@ -30,9 +30,9 @@ public class CambioGravedad : MonoBehaviour {
 		CompruebaCaida (ref cayendo);
 
 		if (cayendo)
-			GetComponentInParent<PlayerController> ().controlmovimiento = false;
+			GetComponent<PlayerController> ().controlmovimiento = false;
 		else
-			GetComponentInParent<PlayerController> ().controlmovimiento = true;
+			GetComponent<PlayerController> ().controlmovimiento = true;
 
 	}
 
