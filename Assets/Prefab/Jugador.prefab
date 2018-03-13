@@ -156,4 +156,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   margenmovimiento: 0.1
-  sala: {fileID: 0}
+  sala: {fileID: 1511245707167728, guid: 6dcff53cd28cd5d41827dc649dc74df9, type: 2}

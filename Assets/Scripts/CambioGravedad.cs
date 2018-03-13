@@ -25,7 +25,7 @@ public class CambioGravedad : MonoBehaviour {
 		{
 			CambiarGravedad ();
 		}
-		GameManager.instance.grav = sala.GetComponent<GuardaGravedad> ().gravedadsala;//cambia el estado de gravedad que guarda el gamemanager por el de la sala actual
+		//GameManager.instance.grav = sala.GetComponent<GuardaGravedad> ().gravedadsala;//cambia el estado de gravedad que guarda el gamemanager por el de la sala actual
 
 		CompruebaCaida (ref cayendo);
 
