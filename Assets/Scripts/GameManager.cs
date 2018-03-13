@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour {
 	public Vector2 grav;
 	public static GameManager instance = null;
     public GuardaGravedad currentGravity;
+	public GameObject salaactual;
 
 	void Awake() {
 		if (instance == null) {

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 	public float speed = 2f;
 	public bool controlmovimiento=false;
-	GameObject salaactual;
+	GameObject salaactual= null;
 	Rigidbody2D rb;
 
 
@@ -14,7 +14,8 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Update () {
-        GameManager.instance.SetCurrentGravity(salaactual.GetComponent<GuardaGravedad>());
+        //GameManager.instance.SetCurrentGravity(salaactual.GetComponent<GuardaGravedad>());
+		if(salaactual!=null) GameManager.instance.salaactual=salaactual;
 
         if (controlmovimiento)
 		Movimiento ();
