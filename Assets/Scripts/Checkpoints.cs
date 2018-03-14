@@ -28,7 +28,7 @@ public class Checkpoints : MonoBehaviour {
 
 		}
 		lastCheck = check;
-		check.activated = true;
+		lastCheck.activated = true;
 		return lastCheck.transform.position;
 	}
 	void OnTriggerEnter2D(Collider2D other)

@@ -17,13 +17,14 @@ public class Muerte : MonoBehaviour {
 	}
 	void Dead()
 	{
-		Destroy (gb);
+		DestroyImmediate(gb);
 	}
-	void OnColliderEnter2D(Collision2D col)
+	void OnCollisionEnter2D(Collision2D col)
 	{
-		if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Bad Floor") {
+		if (col.gameObject.tag == "enemy"||col.gameObject.tag=="Bad Floor") {
+			Instantiate (gb,Checkpoints.lastCheck.transform);
 			Dead ();
-			Instantiate(gb,Checkpoints.lastCheck.transform);
+
 			
 		}
 	}

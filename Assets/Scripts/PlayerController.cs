@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour {
 	public bool controlmovimiento=false;
 	GameObject salaactual= null;
 	Rigidbody2D rb;
+	public Transform x;
 
 
 	void Awake () {
@@ -34,8 +35,10 @@ public class PlayerController : MonoBehaviour {
 		else transform.Translate(new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime,0, 0));
 	}
 
-	void OnTriggerEnter2D (Collider2D col) {
+	void OnCollisionEnter2D (Collision2D col) {
 		if (col.gameObject.tag == "enemy")//cuando colisiona con un enemigo
+			x.position=new Vector3(Checkpoints.lastCheck.transform.position.x,Checkpoints.lastCheck.transform.position.y,Checkpoints.lastCheck.transform.position.z);
+		Instantiate (this.gameObject);
 			Die ();
 	}
 
