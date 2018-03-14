@@ -9,7 +9,7 @@ public class SleepObjetos : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (sala != null) {
-			if (sala == GameManager.instance.salaactual)//si la sala donde está el objeto es la misma que la sala en la que está el jugador 
+			if (sala==GameManager.instance.salaactual)//si la sala donde está el objeto es la misma que la sala en la que está el jugador 
 				GetComponent<Rigidbody2D> ().simulated = true;//descongela el objeto
 			else
 				GetComponent<Rigidbody2D> ().simulated=false;//congela el objeto
