@@ -7,16 +7,20 @@ public class PlayerController : MonoBehaviour {
 	public bool controlmovimiento=false;
 	GameObject salaactual= null;
 	Rigidbody2D rb;
-	public Transform x;
+	public Transform spawn;
+	public GameObject playerprefab;
 
 
 	void Awake () {
 		rb = GetComponent<Rigidbody2D> ();
+		GameManager.instance.oxigeno = GameManager.instance.maxoxigeno;
 	}
+		
 
 	void Update () {
         //GameManager.instance.SetCurrentGravity(salaactual.GetComponent<GuardaGravedad>());
-		if (GameManager.instance.GetOxigeno () <= 0)
+
+		if (GameManager.instance.oxigeno<= 0)
 			Die ();
 
         if (controlmovimiento)
@@ -35,15 +39,10 @@ public class PlayerController : MonoBehaviour {
 		else transform.Translate(new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime,0, 0));
 	}
 
-	void OnCollisionEnter2D (Collision2D col) {
-		if (col.gameObject.tag == "enemy")//cuando colisiona con un enemigo
-			x.position=new Vector3(Checkpoints.lastCheck.transform.position.x,Checkpoints.lastCheck.transform.position.y,Checkpoints.lastCheck.transform.position.z);
-		Instantiate (this.gameObject);
-			Die ();
-	}
-
-	void Die(){//método de muerte del jugador
-		Destroy (gameObject);
+	public void Die(){//método de muerte del jugador
+		GameObject spawned = Instantiate (playerprefab);
+		spawned.transform.position = spawn.position;
+		Destroy(gameObject);
 	}
 		
 

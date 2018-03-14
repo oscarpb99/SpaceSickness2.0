@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour {
 	public static GameManager instance = null;
     public GuardaGravedad currentGravity;
 	public GameObject salaactual;//sala donde se encuentra el jugador
-	float oxigeno;//cantidad de oxigeno restante en el tanque del jugador
+	public float oxigeno;//cantidad de oxigeno restante en el tanque del jugador
 	public float maxoxigeno=600;
 	public GameObject oxigenbar;
 
@@ -25,13 +25,10 @@ public class GameManager : MonoBehaviour {
 			DontDestroyOnLoad (this.gameObject);
 		} else
 			Destroy (this.gameObject);
-
-		oxigeno = maxoxigeno;
 	}
 		
 	// Update is called once per frame
 	void Update () {
-
 		Physics2D.gravity = grav;//se encarga de actualizar el estado de gravedad en base a una variable que es modificada en cada sala (grav)
 	}
 	void FixedUpdate() {
@@ -59,8 +56,5 @@ public class GameManager : MonoBehaviour {
 	void AumentaOxigeno(){
 		oxigeno = maxoxigeno;
 	}
-
-	public float GetOxigeno(){
-		return oxigeno;
-	}
+		
 }

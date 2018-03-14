@@ -54,3 +54,6 @@ MonoBehaviour:
   grav: {x: 0, y: 0}
   currentGravity: {fileID: 0}
   salaactual: {fileID: 0}
+  oxigeno: 0
+  maxoxigeno: 600
+  oxigenbar: {fileID: 0}

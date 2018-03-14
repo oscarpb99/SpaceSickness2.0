@@ -16,5 +16,7 @@ public class EnemigoPlanta : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D col){
 		if (col.gameObject.tag == "sala")
 			sala = col.gameObject;
+		if (col.gameObject.tag == "player")
+			col.gameObject.GetComponent<PlayerController> ().Die ();
 	}
 }
