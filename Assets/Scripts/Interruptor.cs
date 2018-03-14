@@ -39,6 +39,7 @@ public class Interruptor : MonoBehaviour {
     Vector3 thisPosition;
     public PruebaTrigger objeto;
     private DireccionGravedad currentGravity;
+    public DireccionGravedad gravedadBoton;
     private GameObject currentObject;   // Objeto que está presionando el interruptor.
     public float onDelay;               // Lo que tardan en responder los objetos al presionar el interruptor.
     public float offDelay;              // Lo que tardan en responder los objetos al dejar de presionar el interruptor.
@@ -62,27 +63,30 @@ public class Interruptor : MonoBehaviour {
         Vector3 extent = collision.collider.bounds.extents;
         Vector3 position = collision.transform.position;
         bool activar = false;
-        switch (currentGravity)
+        if (currentGravity == gravedadBoton)
         {
-            // probar
-            case DireccionGravedad.Abajo:
-                if (position.y - extent.y >= thisPosition.y + (thisExtent.y - 0.1))
-                    activar = true;
-                break;
-            case DireccionGravedad.Arriba:
-                if (position.y + extent.y <= thisPosition.y - (thisExtent.y - 0.1))
-                    activar = true;
-                break;
-            case DireccionGravedad.Izquierda:
-                if (position.x - extent.x >= thisPosition.x + (thisExtent.x - 0.1))
-                    activar = true;
-                break;
-            case DireccionGravedad.Derecha:
-                if (position.x + extent.x <= thisPosition.y - (thisExtent.x - 0.1))
-                    activar = true;
-                break;
-            default:
-                break;
+            switch (currentGravity)
+            {
+                // probar
+                case DireccionGravedad.Abajo:
+                    if (position.y - extent.y >= thisPosition.y + (thisExtent.y - 0.1))
+                        activar = true;
+                    break;
+                case DireccionGravedad.Arriba:
+                    if (position.y + extent.y <= thisPosition.y - (thisExtent.y - 0.1))
+                        activar = true;
+                    break;
+                case DireccionGravedad.Izquierda:
+                    if (position.x - extent.x >= thisPosition.x + (thisExtent.x - 0.1))
+                        activar = true;
+                    break;
+                case DireccionGravedad.Derecha:
+                    if (position.x + extent.x <= thisPosition.y - (thisExtent.x - 0.1))
+                        activar = true;
+                    break;
+                default:
+                    break;
+            }
         }
         if (activar)
         {
