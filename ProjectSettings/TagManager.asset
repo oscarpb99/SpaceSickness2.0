@@ -8,9 +8,9 @@ TagManager:
   - sala
   - CheckPoints
   - Bad Floor
-  - player
   - obj
   - enemy
+  - Undefined
   layers:
   - Default
   - TransparentFX

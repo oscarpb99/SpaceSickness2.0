@@ -7,7 +7,7 @@ public class Muerte : MonoBehaviour {
 	public GameObject gb;
 
 	// Use this for initialization
-/*	void Start () {
+	void Start () {
 		
 	}
 	
@@ -18,15 +18,13 @@ public class Muerte : MonoBehaviour {
 	void Dead()
 	{
 		Destroy (gb);
-
-
 	}
-	void OnCollisionEnter2D(Collision2D col)
+	void OnColliderEnter2D(Collision2D col)
 	{
 		if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Bad Floor") {
 			Dead ();
-			gb.transform.position = Checkpoints.ActivateCheckPoints();
+			Instantiate(gb,Checkpoints.lastCheck.transform);
 			
 		}
-	}*/
+	}
 }
