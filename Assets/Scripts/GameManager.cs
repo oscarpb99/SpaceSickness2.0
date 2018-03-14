@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 
@@ -14,7 +15,9 @@ public class GameManager : MonoBehaviour {
     public GuardaGravedad currentGravity;
 	public GameObject salaactual;//sala donde se encuentra el jugador
 	float oxigeno;//cantidad de oxigeno restante en el tanque del jugador
-	public float drenaoxigeno;//periodo de gasto del oxigeno
+	public float maxoxigeno=600;
+	public GameObject oxigenbar;
+
 
 	void Awake() {
 		if (instance == null) {
@@ -23,19 +26,22 @@ public class GameManager : MonoBehaviour {
 		} else
 			Destroy (this.gameObject);
 
-		oxigeno = 100;
+		oxigeno = maxoxigeno;
 	}
 		
-	
 	// Update is called once per frame
 	void Update () {
-		if (!salaactual.GetComponent<GuardaGravedad> ().oxigeno) {
-			InvokeRepeating ("RestaOxigeno", drenaoxigeno, drenaoxigeno);
-		} else
-			Invoke ("AumentaOxigeno", 1f);
+
 		Physics2D.gravity = grav;//se encarga de actualizar el estado de gravedad en base a una variable que es modificada en cada sala (grav)
 	}
-
+	void FixedUpdate() {
+		if (!salaactual.GetComponent<GuardaGravedad> ().oxigeno)
+			RestaOxigeno ();
+		else
+			AumentaOxigeno ();
+		
+		if(oxigeno>0) oxigenbar.GetComponent<RectTransform> ().localScale = new Vector3 (oxigeno / maxoxigeno, 1f, 1f);
+	}
     public DireccionGravedad GetDirection()
     {
         return currentGravity.GetDireccion();
@@ -51,7 +57,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void AumentaOxigeno(){
-		oxigeno = 100;
+		oxigeno = maxoxigeno;
 	}
 
 	public float GetOxigeno(){
