@@ -7,7 +7,8 @@ public class GuardaGravedad : MonoBehaviour {
 	public bool gravabajo;
 	public bool gravderecha;
 	public bool gravizquierda;
-	public Vector2 gravedadsala;//guarda la direccion de la gravedad propia de la sala
+	public Vector2 gravedadsala;
+	public bool oxigeno;//guarda la direccion de la gravedad propia de la sala
 	private DireccionGravedad direccion;
 	bool jugadorPresente = false;//determina si el jugador está en esta sala
 
@@ -20,6 +21,9 @@ public class GuardaGravedad : MonoBehaviour {
 			direccion = DireccionGravedad.Arriba;
 		else if  (gravedadsala.y < 0)
 			direccion = DireccionGravedad.Abajo;
+
+		if (jugadorPresente)
+			GameManager.instance.grav = gravedadsala;
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
@@ -31,8 +35,7 @@ public class GuardaGravedad : MonoBehaviour {
 		if (col.gameObject.tag == "player")
 			jugadorPresente = false;
 	}
-
-	 
+		 
     public DireccionGravedad GetDireccion ()
     {
         return direccion;

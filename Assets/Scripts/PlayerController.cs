@@ -15,7 +15,8 @@ public class PlayerController : MonoBehaviour {
 
 	void Update () {
         //GameManager.instance.SetCurrentGravity(salaactual.GetComponent<GuardaGravedad>());
-		if(salaactual!=null) GameManager.instance.salaactual=salaactual;
+		if (GameManager.instance.GetOxigeno () <= 0)
+			Die ();
 
         if (controlmovimiento)
 		Movimiento ();
@@ -25,7 +26,7 @@ public class PlayerController : MonoBehaviour {
 	}
 		
 	void Movimiento () {
-		salaactual = this.GetComponent<CambioGravedad> ().sala;
+		salaactual = GameManager.instance.salaactual;
 		if (salaactual.GetComponent<GuardaGravedad> ().GetDireccion() == DireccionGravedad.Derecha)
 			transform.Translate (new Vector3 (0, Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0));
 		else if (salaactual.GetComponent<GuardaGravedad>().GetDireccion() == DireccionGravedad.Izquierda)
