@@ -10,7 +10,7 @@ public class ScriptPuerta : MonoBehaviour {
 	
 
 	void FixedUpdate () {
-		if (!abierta && Input.GetKey (KeyCode.Space)) 
+	if (!abierta && Input.GetKey (KeyCode.Space)) 
 		{
 			if (jugadorEnRango)
 			{
