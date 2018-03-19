@@ -27,8 +27,11 @@ public class GuardaGravedad : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
-		if (col.gameObject.tag == "player")
-			jugadorPresente = true;
+        if (col.gameObject.tag == "player")
+        {
+            GameManager.instance.indicador.updateButtons(this);
+            jugadorPresente = true;
+        }
 	}
 
 	void OnTriggerExit2D(Collider2D col){

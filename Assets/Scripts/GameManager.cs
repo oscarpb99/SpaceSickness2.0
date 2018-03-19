@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject oxigenbar;
 	public GameObject camera;
 	public GameObject player;
+    public IndicadorGravedad indicador;
 
 
 	void Awake() {
