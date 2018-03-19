@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
 	public GameObject playerprefab;
 
 
-	void Awake () {
+	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
 		GameManager.instance.oxigeno = GameManager.instance.maxoxigeno;
 	}
