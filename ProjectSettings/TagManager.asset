@@ -11,6 +11,8 @@ TagManager:
   - obj
   - enemy
   - Undefined
+  - player
+  - puerta
   layers:
   - Default
   - TransparentFX

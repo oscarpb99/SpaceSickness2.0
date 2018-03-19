@@ -45,6 +45,18 @@ public class PlayerController : MonoBehaviour {
 		GameManager.instance.player = spawned;
 		Destroy(gameObject);
 	}
+
+	void OnTriggerEnter2D(Collider2D col){
+		if (col.gameObject.tag == "puerta") {
+				col.GetComponentInParent<ScriptPuerta> ().jugadorEnRango = true;
+		}
+	}
+	void OnTriggerExit2D(Collider2D col){
+		if (col.gameObject.tag == "puerta") {
+			col.GetComponent<ScriptPuerta> ().jugadorEnRango = false;
+		}
+
+	}
 		
 
 }
