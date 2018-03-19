@@ -40,9 +40,10 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	public void Die(){//método de muerte del jugador
-		GameObject spawned = Instantiate (playerprefab);
-		spawned.transform.position = spawn.position;
-		GameManager.instance.player = spawned;
+		if (spawn != null) {
+			GameObject spawned = Instantiate (playerprefab);
+			spawned.transform.position = spawn.position;
+		}
 		Destroy(gameObject);
 	}
 

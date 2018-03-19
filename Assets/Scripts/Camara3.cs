@@ -13,6 +13,6 @@ public class Camara3 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		gameObject.transform.position = new Vector3 (GameManager.instance.salaactual.transform.position.x, GameManager.instance.salaactual.transform.position.y, -10);
-		Camera.main.orthographicSize = GameManager.instance.salaactual.transform.localScale.x/4f;
+		Camera.main.orthographicSize = GameManager.instance.salaactual.transform.localScale.x/3f;
 	}
 }
