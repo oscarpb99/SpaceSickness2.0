@@ -1,0 +1,2098 @@
+fileFormatVersion: 2
+guid: 92db0c9e3d0b6b444b102307a48f612e
+timeCreated: 1521398834
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: intbuilding7a_0
+    21300002: intbuilding7a_1
+    21300004: intbuilding7a_2
+    21300006: intbuilding7a_3
+    21300008: intbuilding7a_4
+    21300010: intbuilding7a_5
+    21300012: intbuilding7a_6
+    21300014: intbuilding7a_7
+    21300016: intbuilding7a_8
+    21300018: intbuilding7a_9
+    21300020: intbuilding7a_10
+    21300022: intbuilding7a_11
+    21300024: intbuilding7a_12
+    21300026: intbuilding7a_13
+    21300028: intbuilding7a_14
+    21300030: intbuilding7a_15
+    21300032: intbuilding7a_16
+    21300034: intbuilding7a_17
+    21300036: intbuilding7a_18
+    21300038: intbuilding7a_19
+    21300040: intbuilding7a_20
+    21300042: intbuilding7a_21
+    21300044: intbuilding7a_22
+    21300046: intbuilding7a_23
+    21300048: intbuilding7a_24
+    21300050: intbuilding7a_25
+    21300052: intbuilding7a_26
+    21300054: intbuilding7a_27
+    21300056: intbuilding7a_28
+    21300058: intbuilding7a_29
+    21300060: intbuilding7a_30
+    21300062: intbuilding7a_31
+    21300064: intbuilding7a_32
+    21300066: intbuilding7a_33
+    21300068: intbuilding7a_34
+    21300070: intbuilding7a_35
+    21300072: intbuilding7a_36
+    21300074: intbuilding7a_37
+    21300076: intbuilding7a_38
+    21300078: intbuilding7a_39
+    21300080: intbuilding7a_40
+    21300082: intbuilding7a_41
+    21300084: intbuilding7a_42
+    21300086: intbuilding7a_43
+    21300088: intbuilding7a_44
+    21300090: intbuilding7a_45
+    21300092: intbuilding7a_46
+    21300094: intbuilding7a_47
+    21300096: intbuilding7a_48
+    21300098: intbuilding7a_49
+    21300100: intbuilding7a_50
+    21300102: intbuilding7a_51
+    21300104: intbuilding7a_52
+    21300106: intbuilding7a_53
+    21300108: intbuilding7a_54
+    21300110: intbuilding7a_55
+    21300112: intbuilding7a_56
+    21300114: intbuilding7a_57
+    21300116: intbuilding7a_58
+    21300118: intbuilding7a_59
+    21300120: intbuilding7a_60
+    21300122: intbuilding7a_61
+    21300124: intbuilding7a_62
+    21300126: intbuilding7a_63
+    21300128: intbuilding7a_64
+    21300130: intbuilding7a_65
+    21300132: intbuilding7a_66
+    21300134: intbuilding7a_67
+    21300136: intbuilding7a_68
+    21300138: intbuilding7a_69
+    21300140: intbuilding7a_70
+    21300142: intbuilding7a_71
+    21300144: intbuilding7a_72
+    21300146: intbuilding7a_73
+    21300148: intbuilding7a_74
+    21300150: intbuilding7a_75
+    21300152: intbuilding7a_76
+    21300154: intbuilding7a_77
+    21300156: intbuilding7a_78
+    21300158: intbuilding7a_79
+    21300160: intbuilding7a_80
+    21300162: intbuilding7a_81
+    21300164: intbuilding7a_82
+    21300166: intbuilding7a_83
+    21300168: intbuilding7a_84
+    21300170: intbuilding7a_85
+    21300172: intbuilding7a_86
+    21300174: intbuilding7a_87
+    21300176: intbuilding7a_88
+    21300178: intbuilding7a_89
+    21300180: intbuilding7a_90
+    21300182: intbuilding7a_91
+    21300184: intbuilding7a_92
+    21300186: intbuilding7a_93
+    21300188: intbuilding7a_94
+    21300190: intbuilding7a_95
+    21300192: intbuilding7a_96
+    21300194: intbuilding7a_97
+    21300196: intbuilding7a_98
+    21300198: intbuilding7a_99
+    21300200: intbuilding7a_100
+    21300202: intbuilding7a_101
+    21300204: intbuilding7a_102
+    21300206: intbuilding7a_103
+    21300208: intbuilding7a_104
+    21300210: intbuilding7a_105
+    21300212: intbuilding7a_106
+    21300214: intbuilding7a_107
+    21300216: intbuilding7a_108
+    21300218: intbuilding7a_109
+    21300220: intbuilding7a_110
+    21300222: intbuilding7a_111
+    21300224: intbuilding7a_112
+    21300226: intbuilding7a_113
+    21300228: intbuilding7a_114
+    21300230: intbuilding7a_115
+    21300232: intbuilding7a_116
+    21300234: intbuilding7a_117
+    21300236: intbuilding7a_119
+    21300238: intbuilding7a_120
+    21300240: intbuilding7a_121
+    21300242: intbuilding7a_122
+    21300244: intbuilding7a_123
+    21300246: intbuilding7a_126
+    21300248: intbuilding7a_127
+    21300250: intbuilding7a_129
+    21300252: intbuilding7a_130
+    21300254: intbuilding7a_131
+    21300256: intbuilding7a_132
+    21300258: intbuilding7a_133
+    21300260: intbuilding7a_135
+    21300262: intbuilding7a_136
+    21300264: intbuilding7a_137
+    21300266: intbuilding7a_138
+    21300268: intbuilding7a_140
+    21300270: intbuilding7a_141
+    21300272: intbuilding7a_142
+    21300274: intbuilding7a_143
+    21300276: intbuilding7a_146
+    21300278: intbuilding7a_147
+    21300280: intbuilding7a_151
+    21300282: intbuilding7a_152
+    21300284: intbuilding7a_153
+    21300286: intbuilding7a_154
+    21300288: intbuilding7a_160
+    21300290: intbuilding7a_161
+    21300292: intbuilding7a_162
+    21300294: intbuilding7a_163
+    21300296: intbuilding7a_165
+    21300298: intbuilding7a_166
+    21300300: intbuilding7a_167
+    21300302: intbuilding7a_168
+    21300304: intbuilding7a_169
+    21300306: intbuilding7a_170
+    21300308: intbuilding7a_171
+    21300310: intbuilding7a_172
+    21300312: intbuilding7a_174
+    21300314: intbuilding7a_175
+    21300316: intbuilding7a_176
+    21300318: intbuilding7a_177
+    21300320: intbuilding7a_178
+    21300322: intbuilding7a_179
+    21300324: intbuilding7a_180
+    21300326: intbuilding7a_182
+    21300328: intbuilding7a_183
+    21300330: intbuilding7a_184
+    21300332: intbuilding7a_190
+    21300334: intbuilding7a_191
+    21300336: intbuilding7a_192
+    21300338: intbuilding7a_193
+    21300340: intbuilding7a_194
+    21300342: intbuilding7a_195
+    21300344: intbuilding7a_197
+    21300346: intbuilding7a_198
+    21300348: intbuilding7a_199
+    21300350: intbuilding7a_200
+    21300352: intbuilding7a_201
+    21300354: intbuilding7a_202
+    21300356: intbuilding7a_203
+    21300358: intbuilding7a_205
+    21300360: intbuilding7a_206
+    21300362: intbuilding7a_207
+    21300364: intbuilding7a_213
+    21300366: intbuilding7a_214
+    21300368: intbuilding7a_215
+    21300370: intbuilding7a_216
+    21300372: intbuilding7a_217
+    21300374: intbuilding7a_218
+    21300376: intbuilding7a_219
+    21300378: intbuilding7a_220
+    21300380: intbuilding7a_234
+    21300382: intbuilding7a_235
+    21300384: intbuilding7a_236
+    21300386: intbuilding7a_237
+    21300388: intbuilding7a_238
+    21300390: intbuilding7a_239
+    21300392: intbuilding7a_241
+    21300394: intbuilding7a_242
+    21300396: intbuilding7a_255
+    21300398: intbuilding7a_256
+    21300400: intbuilding7a_257
+    21300402: intbuilding7a_258
+    21300404: intbuilding7a_259
+    21300406: intbuilding7a_260
+    21300408: intbuilding7a_261
+    21300410: intbuilding7a_263
+    21300412: intbuilding7a_271
+    21300414: intbuilding7a_272
+    21300416: intbuilding7a_273
+    21300418: intbuilding7a_274
+    21300420: intbuilding7a_280
+    21300422: intbuilding7a_281
+    21300424: intbuilding7a_282
+    21300426: intbuilding7a_283
+    21300428: intbuilding7a_284
+    21300430: intbuilding7a_285
+    21300432: intbuilding7a_287
+    21300434: intbuilding7a_288
+    21300436: intbuilding7a_296
+    21300438: intbuilding7a_297
+    21300440: intbuilding7a_298
+    21300442: intbuilding7a_299
+    21300444: intbuilding7a_305
+    21300446: intbuilding7a_306
+    21300448: intbuilding7a_307
+    21300450: intbuilding7a_308
+    21300452: intbuilding7a_309
+    21300454: intbuilding7a_310
+    21300456: intbuilding7a_312
+    21300458: intbuilding7a_313
+    21300460: intbuilding7a_321
+    21300462: intbuilding7a_322
+    21300464: intbuilding7a_323
+    21300466: intbuilding7a_324
+    21300468: intbuilding7a_330
+    21300470: intbuilding7a_332
+    21300472: intbuilding7a_333
+    21300474: intbuilding7a_334
+    21300476: intbuilding7a_335
+    21300478: intbuilding7a_337
+    21300480: intbuilding7a_338
+    21300482: intbuilding7a_340
+    21300484: intbuilding7a_346
+    21300486: intbuilding7a_347
+    21300488: intbuilding7a_348
+    21300490: intbuilding7a_349
+    21300492: intbuilding7a_384
+    21300494: intbuilding7a_385
+    21300496: intbuilding7a_386
+    21300498: intbuilding7a_387
+    21300500: intbuilding7a_388
+    21300502: intbuilding7a_389
+    21300504: intbuilding7a_391
+    21300506: intbuilding7a_392
+    21300508: intbuilding7a_393
+    21300510: intbuilding7a_394
+    21300512: intbuilding7a_395
+    21300514: intbuilding7a_396
+    21300516: intbuilding7a_398
+    21300518: intbuilding7a_399
+    21300520: intbuilding7a_400
+    21300522: intbuilding7a_401
+    21300524: intbuilding7a_402
+    21300526: intbuilding7a_403
+    21300528: intbuilding7a_407
+    21300530: intbuilding7a_408
+    21300532: intbuilding7a_409
+    21300534: intbuilding7a_410
+    21300536: intbuilding7a_411
+    21300538: intbuilding7a_412
+    21300540: intbuilding7a_414
+    21300542: intbuilding7a_415
+    21300544: intbuilding7a_416
+    21300546: intbuilding7a_417
+    21300548: intbuilding7a_418
+    21300550: intbuilding7a_419
+    21300552: intbuilding7a_421
+    21300554: intbuilding7a_422
+    21300556: intbuilding7a_423
+    21300558: intbuilding7a_424
+    21300560: intbuilding7a_425
+    21300562: intbuilding7a_426
+    21300564: intbuilding7a_430
+    21300566: intbuilding7a_431
+    21300568: intbuilding7a_432
+    21300570: intbuilding7a_433
+    21300572: intbuilding7a_434
+    21300574: intbuilding7a_435
+    21300576: intbuilding7a_437
+    21300578: intbuilding7a_438
+    21300580: intbuilding7a_439
+    21300582: intbuilding7a_440
+    21300584: intbuilding7a_441
+    21300586: intbuilding7a_442
+    21300588: intbuilding7a_444
+    21300590: intbuilding7a_445
+    21300592: intbuilding7a_446
+    21300594: intbuilding7a_447
+    21300596: intbuilding7a_457
+    21300598: intbuilding7a_458
+    21300600: intbuilding7a_459
+    21300602: intbuilding7a_460
+    21300604: intbuilding7a_461
+    21300606: intbuilding7a_463
+    21300608: intbuilding7a_464
+    21300610: intbuilding7a_465
+    21300612: intbuilding7a_466
+    21300614: intbuilding7a_467
+    21300616: intbuilding7a_468
+    21300618: intbuilding7a_469
+    21300620: intbuilding7a_471
+    21300622: intbuilding7a_472
+    21300624: intbuilding7a_473
+    21300626: intbuilding7a_474
+    21300628: intbuilding7a_502
+    21300630: intbuilding7a_503
+    21300632: intbuilding7a_511
+    21300634: intbuilding7a_512
+    21300636: intbuilding7a_513
+    21300638: intbuilding7a_514
+    21300640: intbuilding7a_515
+    21300642: intbuilding7a_516
+    21300644: intbuilding7a_517
+    21300646: intbuilding7a_518
+    21300648: intbuilding7a_519
+    21300650: intbuilding7a_520
+    21300652: intbuilding7a_521
+    21300654: intbuilding7a_522
+    21300656: intbuilding7a_523
+    21300658: intbuilding7a_525
+    21300660: intbuilding7a_526
+    21300662: intbuilding7a_527
+    21300664: intbuilding7a_528
+    21300666: intbuilding7a_529
+    21300668: intbuilding7a_530
+    21300670: intbuilding7a_534
+    21300672: intbuilding7a_535
+    21300674: intbuilding7a_536
+    21300676: intbuilding7a_538
+    21300678: intbuilding7a_539
+    21300680: intbuilding7a_540
+    21300682: intbuilding7a_541
+    21300684: intbuilding7a_542
+    21300686: intbuilding7a_543
+    21300688: intbuilding7a_544
+    21300690: intbuilding7a_545
+    21300692: intbuilding7a_546
+    21300694: intbuilding7a_547
+    21300696: intbuilding7a_548
+    21300698: intbuilding7a_549
+    21300700: intbuilding7a_550
+    21300702: intbuilding7a_552
+    21300704: intbuilding7a_553
+    21300706: intbuilding7a_554
+    21300708: intbuilding7a_555
+    21300710: intbuilding7a_559
+    21300712: intbuilding7a_560
+    21300714: intbuilding7a_561
+    21300716: intbuilding7a_562
+    21300718: intbuilding7a_565
+    21300720: intbuilding7a_566
+    21300722: intbuilding7a_567
+    21300724: intbuilding7a_568
+    21300726: intbuilding7a_569
+    21300728: intbuilding7a_570
+    21300730: intbuilding7a_571
+    21300732: intbuilding7a_572
+    21300734: intbuilding7a_573
+    21300736: intbuilding7a_574
+    21300738: intbuilding7a_575
+    21300740: intbuilding7a_576
+    21300742: intbuilding7a_577
+    21300744: intbuilding7a_578
+    21300746: intbuilding7a_579
+    21300748: intbuilding7a_580
+    21300750: intbuilding7a_581
+    21300752: intbuilding7a_582
+    21300754: intbuilding7a_583
+    21300756: intbuilding7a_584
+    21300758: intbuilding7a_585
+    21300760: intbuilding7a_586
+    21300762: intbuilding7a_587
+    21300764: intbuilding7a_588
+    21300766: intbuilding7a_589
+    21300768: intbuilding7a_590
+    21300770: intbuilding7a_591
+    21300772: intbuilding7a_118
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 63
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: intbuilding7a_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_10
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_18
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_19
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_20
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_21
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_22
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_23
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_27
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_28
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_29
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_30
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_31
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_32
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_33
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_34
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_36
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_37
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_38
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_39
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_40
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_44
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_45
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_46
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_47
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_48
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_49
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_53
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_54
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_55
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_56
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_57
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_58
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_59
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_60
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_64
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_65
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_66
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_67
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_68
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_69
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_70
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_71
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_72
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_73
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_74
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_75
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_76
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_77
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_78
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_79
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_80
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_81
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_82
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_83
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_84
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_85
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_86
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_87
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_88
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_89
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_90
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_91
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_92
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_93
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_94
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_95
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_96
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_97
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_98
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_99
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_100
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_101
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_102
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_103
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_104
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_105
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_106
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_107
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_108
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_109
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_110
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_111
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_112
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_113
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_114
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_115
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_116
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_117
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_118
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_119
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_120
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: intbuilding7a_121
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

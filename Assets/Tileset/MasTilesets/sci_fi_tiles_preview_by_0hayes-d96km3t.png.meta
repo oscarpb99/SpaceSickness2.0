@@ -1,0 +1,2817 @@
+fileFormatVersion: 2
+guid: 2ad9de46e9defd442882caac154a5c50
+timeCreated: 1521464051
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sci_fi_tiles_preview_by_0hayes-d96km3t_0
+    21300002: sci_fi_tiles_preview_by_0hayes-d96km3t_1
+    21300004: sci_fi_tiles_preview_by_0hayes-d96km3t_2
+    21300006: sci_fi_tiles_preview_by_0hayes-d96km3t_3
+    21300008: sci_fi_tiles_preview_by_0hayes-d96km3t_4
+    21300010: sci_fi_tiles_preview_by_0hayes-d96km3t_5
+    21300012: sci_fi_tiles_preview_by_0hayes-d96km3t_6
+    21300014: sci_fi_tiles_preview_by_0hayes-d96km3t_7
+    21300016: sci_fi_tiles_preview_by_0hayes-d96km3t_8
+    21300018: sci_fi_tiles_preview_by_0hayes-d96km3t_9
+    21300020: sci_fi_tiles_preview_by_0hayes-d96km3t_10
+    21300022: sci_fi_tiles_preview_by_0hayes-d96km3t_11
+    21300024: sci_fi_tiles_preview_by_0hayes-d96km3t_12
+    21300026: sci_fi_tiles_preview_by_0hayes-d96km3t_13
+    21300028: sci_fi_tiles_preview_by_0hayes-d96km3t_14
+    21300030: sci_fi_tiles_preview_by_0hayes-d96km3t_15
+    21300032: sci_fi_tiles_preview_by_0hayes-d96km3t_16
+    21300034: sci_fi_tiles_preview_by_0hayes-d96km3t_17
+    21300036: sci_fi_tiles_preview_by_0hayes-d96km3t_18
+    21300038: sci_fi_tiles_preview_by_0hayes-d96km3t_19
+    21300040: sci_fi_tiles_preview_by_0hayes-d96km3t_20
+    21300042: sci_fi_tiles_preview_by_0hayes-d96km3t_21
+    21300044: sci_fi_tiles_preview_by_0hayes-d96km3t_22
+    21300046: sci_fi_tiles_preview_by_0hayes-d96km3t_23
+    21300048: sci_fi_tiles_preview_by_0hayes-d96km3t_24
+    21300050: sci_fi_tiles_preview_by_0hayes-d96km3t_25
+    21300052: sci_fi_tiles_preview_by_0hayes-d96km3t_26
+    21300054: sci_fi_tiles_preview_by_0hayes-d96km3t_27
+    21300056: sci_fi_tiles_preview_by_0hayes-d96km3t_28
+    21300058: sci_fi_tiles_preview_by_0hayes-d96km3t_29
+    21300060: sci_fi_tiles_preview_by_0hayes-d96km3t_30
+    21300062: sci_fi_tiles_preview_by_0hayes-d96km3t_31
+    21300064: sci_fi_tiles_preview_by_0hayes-d96km3t_32
+    21300066: sci_fi_tiles_preview_by_0hayes-d96km3t_33
+    21300068: sci_fi_tiles_preview_by_0hayes-d96km3t_34
+    21300070: sci_fi_tiles_preview_by_0hayes-d96km3t_35
+    21300072: sci_fi_tiles_preview_by_0hayes-d96km3t_36
+    21300074: sci_fi_tiles_preview_by_0hayes-d96km3t_37
+    21300076: sci_fi_tiles_preview_by_0hayes-d96km3t_38
+    21300078: sci_fi_tiles_preview_by_0hayes-d96km3t_39
+    21300080: sci_fi_tiles_preview_by_0hayes-d96km3t_40
+    21300082: sci_fi_tiles_preview_by_0hayes-d96km3t_41
+    21300084: sci_fi_tiles_preview_by_0hayes-d96km3t_42
+    21300086: sci_fi_tiles_preview_by_0hayes-d96km3t_43
+    21300088: sci_fi_tiles_preview_by_0hayes-d96km3t_44
+    21300090: sci_fi_tiles_preview_by_0hayes-d96km3t_45
+    21300092: sci_fi_tiles_preview_by_0hayes-d96km3t_46
+    21300094: sci_fi_tiles_preview_by_0hayes-d96km3t_47
+    21300096: sci_fi_tiles_preview_by_0hayes-d96km3t_48
+    21300098: sci_fi_tiles_preview_by_0hayes-d96km3t_49
+    21300100: sci_fi_tiles_preview_by_0hayes-d96km3t_50
+    21300102: sci_fi_tiles_preview_by_0hayes-d96km3t_51
+    21300104: sci_fi_tiles_preview_by_0hayes-d96km3t_52
+    21300106: sci_fi_tiles_preview_by_0hayes-d96km3t_53
+    21300108: sci_fi_tiles_preview_by_0hayes-d96km3t_54
+    21300110: sci_fi_tiles_preview_by_0hayes-d96km3t_55
+    21300112: sci_fi_tiles_preview_by_0hayes-d96km3t_56
+    21300114: sci_fi_tiles_preview_by_0hayes-d96km3t_57
+    21300116: sci_fi_tiles_preview_by_0hayes-d96km3t_58
+    21300118: sci_fi_tiles_preview_by_0hayes-d96km3t_59
+    21300120: sci_fi_tiles_preview_by_0hayes-d96km3t_60
+    21300122: sci_fi_tiles_preview_by_0hayes-d96km3t_61
+    21300124: sci_fi_tiles_preview_by_0hayes-d96km3t_62
+    21300126: sci_fi_tiles_preview_by_0hayes-d96km3t_63
+    21300128: sci_fi_tiles_preview_by_0hayes-d96km3t_64
+    21300130: sci_fi_tiles_preview_by_0hayes-d96km3t_65
+    21300132: sci_fi_tiles_preview_by_0hayes-d96km3t_66
+    21300134: sci_fi_tiles_preview_by_0hayes-d96km3t_67
+    21300136: sci_fi_tiles_preview_by_0hayes-d96km3t_68
+    21300138: sci_fi_tiles_preview_by_0hayes-d96km3t_69
+    21300140: sci_fi_tiles_preview_by_0hayes-d96km3t_70
+    21300142: sci_fi_tiles_preview_by_0hayes-d96km3t_71
+    21300144: sci_fi_tiles_preview_by_0hayes-d96km3t_72
+    21300146: sci_fi_tiles_preview_by_0hayes-d96km3t_73
+    21300148: sci_fi_tiles_preview_by_0hayes-d96km3t_74
+    21300150: sci_fi_tiles_preview_by_0hayes-d96km3t_75
+    21300152: sci_fi_tiles_preview_by_0hayes-d96km3t_76
+    21300154: sci_fi_tiles_preview_by_0hayes-d96km3t_77
+    21300156: sci_fi_tiles_preview_by_0hayes-d96km3t_78
+    21300158: sci_fi_tiles_preview_by_0hayes-d96km3t_79
+    21300160: sci_fi_tiles_preview_by_0hayes-d96km3t_80
+    21300162: sci_fi_tiles_preview_by_0hayes-d96km3t_81
+    21300164: sci_fi_tiles_preview_by_0hayes-d96km3t_82
+    21300166: sci_fi_tiles_preview_by_0hayes-d96km3t_83
+    21300168: sci_fi_tiles_preview_by_0hayes-d96km3t_84
+    21300170: sci_fi_tiles_preview_by_0hayes-d96km3t_85
+    21300172: sci_fi_tiles_preview_by_0hayes-d96km3t_86
+    21300174: sci_fi_tiles_preview_by_0hayes-d96km3t_87
+    21300176: sci_fi_tiles_preview_by_0hayes-d96km3t_88
+    21300178: sci_fi_tiles_preview_by_0hayes-d96km3t_89
+    21300180: sci_fi_tiles_preview_by_0hayes-d96km3t_90
+    21300182: sci_fi_tiles_preview_by_0hayes-d96km3t_91
+    21300184: sci_fi_tiles_preview_by_0hayes-d96km3t_92
+    21300186: sci_fi_tiles_preview_by_0hayes-d96km3t_93
+    21300188: sci_fi_tiles_preview_by_0hayes-d96km3t_94
+    21300190: sci_fi_tiles_preview_by_0hayes-d96km3t_95
+    21300192: sci_fi_tiles_preview_by_0hayes-d96km3t_96
+    21300194: sci_fi_tiles_preview_by_0hayes-d96km3t_97
+    21300196: sci_fi_tiles_preview_by_0hayes-d96km3t_98
+    21300198: sci_fi_tiles_preview_by_0hayes-d96km3t_99
+    21300200: sci_fi_tiles_preview_by_0hayes-d96km3t_100
+    21300202: sci_fi_tiles_preview_by_0hayes-d96km3t_101
+    21300204: sci_fi_tiles_preview_by_0hayes-d96km3t_102
+    21300206: sci_fi_tiles_preview_by_0hayes-d96km3t_103
+    21300208: sci_fi_tiles_preview_by_0hayes-d96km3t_104
+    21300210: sci_fi_tiles_preview_by_0hayes-d96km3t_105
+    21300212: sci_fi_tiles_preview_by_0hayes-d96km3t_106
+    21300214: sci_fi_tiles_preview_by_0hayes-d96km3t_107
+    21300216: sci_fi_tiles_preview_by_0hayes-d96km3t_108
+    21300218: sci_fi_tiles_preview_by_0hayes-d96km3t_109
+    21300220: sci_fi_tiles_preview_by_0hayes-d96km3t_110
+    21300222: sci_fi_tiles_preview_by_0hayes-d96km3t_111
+    21300224: sci_fi_tiles_preview_by_0hayes-d96km3t_112
+    21300226: sci_fi_tiles_preview_by_0hayes-d96km3t_113
+    21300228: sci_fi_tiles_preview_by_0hayes-d96km3t_114
+    21300230: sci_fi_tiles_preview_by_0hayes-d96km3t_115
+    21300232: sci_fi_tiles_preview_by_0hayes-d96km3t_116
+    21300234: sci_fi_tiles_preview_by_0hayes-d96km3t_117
+    21300236: sci_fi_tiles_preview_by_0hayes-d96km3t_118
+    21300238: sci_fi_tiles_preview_by_0hayes-d96km3t_119
+    21300240: sci_fi_tiles_preview_by_0hayes-d96km3t_120
+    21300242: sci_fi_tiles_preview_by_0hayes-d96km3t_121
+    21300244: sci_fi_tiles_preview_by_0hayes-d96km3t_122
+    21300246: sci_fi_tiles_preview_by_0hayes-d96km3t_123
+    21300248: sci_fi_tiles_preview_by_0hayes-d96km3t_124
+    21300250: sci_fi_tiles_preview_by_0hayes-d96km3t_125
+    21300252: sci_fi_tiles_preview_by_0hayes-d96km3t_126
+    21300254: sci_fi_tiles_preview_by_0hayes-d96km3t_127
+    21300256: sci_fi_tiles_preview_by_0hayes-d96km3t_128
+    21300258: sci_fi_tiles_preview_by_0hayes-d96km3t_129
+    21300260: sci_fi_tiles_preview_by_0hayes-d96km3t_130
+    21300262: sci_fi_tiles_preview_by_0hayes-d96km3t_131
+    21300264: sci_fi_tiles_preview_by_0hayes-d96km3t_132
+    21300266: sci_fi_tiles_preview_by_0hayes-d96km3t_133
+    21300268: sci_fi_tiles_preview_by_0hayes-d96km3t_134
+    21300270: sci_fi_tiles_preview_by_0hayes-d96km3t_135
+    21300272: sci_fi_tiles_preview_by_0hayes-d96km3t_136
+    21300274: sci_fi_tiles_preview_by_0hayes-d96km3t_137
+    21300276: sci_fi_tiles_preview_by_0hayes-d96km3t_138
+    21300278: sci_fi_tiles_preview_by_0hayes-d96km3t_139
+    21300280: sci_fi_tiles_preview_by_0hayes-d96km3t_140
+    21300282: sci_fi_tiles_preview_by_0hayes-d96km3t_141
+    21300284: sci_fi_tiles_preview_by_0hayes-d96km3t_142
+    21300286: sci_fi_tiles_preview_by_0hayes-d96km3t_143
+    21300288: sci_fi_tiles_preview_by_0hayes-d96km3t_144
+    21300290: sci_fi_tiles_preview_by_0hayes-d96km3t_145
+    21300292: sci_fi_tiles_preview_by_0hayes-d96km3t_146
+    21300294: sci_fi_tiles_preview_by_0hayes-d96km3t_147
+    21300296: sci_fi_tiles_preview_by_0hayes-d96km3t_148
+    21300298: sci_fi_tiles_preview_by_0hayes-d96km3t_149
+    21300300: sci_fi_tiles_preview_by_0hayes-d96km3t_150
+    21300302: sci_fi_tiles_preview_by_0hayes-d96km3t_151
+    21300304: sci_fi_tiles_preview_by_0hayes-d96km3t_152
+    21300306: sci_fi_tiles_preview_by_0hayes-d96km3t_153
+    21300308: sci_fi_tiles_preview_by_0hayes-d96km3t_154
+    21300310: sci_fi_tiles_preview_by_0hayes-d96km3t_155
+    21300312: sci_fi_tiles_preview_by_0hayes-d96km3t_156
+    21300314: sci_fi_tiles_preview_by_0hayes-d96km3t_157
+    21300316: sci_fi_tiles_preview_by_0hayes-d96km3t_158
+    21300318: sci_fi_tiles_preview_by_0hayes-d96km3t_159
+    21300320: sci_fi_tiles_preview_by_0hayes-d96km3t_160
+    21300322: sci_fi_tiles_preview_by_0hayes-d96km3t_161
+    21300324: sci_fi_tiles_preview_by_0hayes-d96km3t_162
+    21300326: sci_fi_tiles_preview_by_0hayes-d96km3t_163
+    21300328: sci_fi_tiles_preview_by_0hayes-d96km3t_164
+    21300330: sci_fi_tiles_preview_by_0hayes-d96km3t_165
+    21300332: sci_fi_tiles_preview_by_0hayes-d96km3t_166
+    21300334: sci_fi_tiles_preview_by_0hayes-d96km3t_167
+    21300336: sci_fi_tiles_preview_by_0hayes-d96km3t_168
+    21300338: sci_fi_tiles_preview_by_0hayes-d96km3t_169
+    21300340: sci_fi_tiles_preview_by_0hayes-d96km3t_170
+    21300342: sci_fi_tiles_preview_by_0hayes-d96km3t_171
+    21300344: sci_fi_tiles_preview_by_0hayes-d96km3t_172
+    21300346: sci_fi_tiles_preview_by_0hayes-d96km3t_173
+    21300348: sci_fi_tiles_preview_by_0hayes-d96km3t_174
+    21300350: sci_fi_tiles_preview_by_0hayes-d96km3t_175
+    21300352: sci_fi_tiles_preview_by_0hayes-d96km3t_176
+    21300354: sci_fi_tiles_preview_by_0hayes-d96km3t_177
+    21300356: sci_fi_tiles_preview_by_0hayes-d96km3t_178
+    21300358: sci_fi_tiles_preview_by_0hayes-d96km3t_179
+    21300360: sci_fi_tiles_preview_by_0hayes-d96km3t_180
+    21300362: sci_fi_tiles_preview_by_0hayes-d96km3t_181
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_9
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_10
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_11
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_12
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_13
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_14
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_15
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_16
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_17
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_18
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_19
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_20
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_21
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_22
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_23
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_24
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_25
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 265
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_28
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_30
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_31
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_32
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_33
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_35
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_36
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_37
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_38
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_39
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_40
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_41
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_42
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_43
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_44
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_45
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_46
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_47
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_48
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_49
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_50
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_51
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 227
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_53
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_54
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_56
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_57
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_58
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_59
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_60
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_61
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_62
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_63
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_64
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_65
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_66
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_67
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_68
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_69
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_70
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_71
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_72
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_73
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_74
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_75
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_76
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_77
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 189
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_79
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_80
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_81
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_82
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_83
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_84
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_85
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_86
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_87
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_88
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_89
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_90
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_91
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_92
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_93
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_94
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_95
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_96
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_97
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_98
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_99
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_100
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_101
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_102
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_103
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 151
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_105
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_106
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_107
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_108
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_109
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_110
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_111
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_112
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_113
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_114
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_115
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_116
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_117
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_118
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_119
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_120
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_121
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_122
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_123
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_124
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_125
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_126
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_127
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_128
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_129
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 113
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_131
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_132
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_133
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_134
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_135
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_136
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_137
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_138
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_139
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_140
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_141
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_142
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_143
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_144
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_145
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_146
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_147
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_148
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_149
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_150
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_151
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_152
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_153
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_154
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_155
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 75
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_157
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_158
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_159
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_160
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_161
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_162
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_163
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_164
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_165
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_166
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_167
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_168
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_169
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_170
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_171
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_172
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_173
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_174
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_175
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_176
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_177
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_178
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_179
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_180
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sci_fi_tiles_preview_by_0hayes-d96km3t_181
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 37
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

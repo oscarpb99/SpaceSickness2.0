@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 31797a58ecdd0b945bc5cdf3b462cb0f
-timeCreated: 1521019012
-licenseType: Pro
+timeCreated: 1521322907
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: InfectedStationTileset_0
@@ -14,6 +14,68 @@ TextureImporter:
     21300014: InfectedStationTileset_7
     21300016: InfectedStationTileset_8
     21300018: InfectedStationTileset_9
+    21300020: InfectedStationTileset_10
+    21300022: InfectedStationTileset_11
+    21300024: InfectedStationTileset_12
+    21300026: InfectedStationTileset_13
+    21300028: InfectedStationTileset_14
+    21300030: InfectedStationTileset_15
+    21300032: InfectedStationTileset_16
+    21300034: InfectedStationTileset_17
+    21300036: InfectedStationTileset_18
+    21300038: InfectedStationTileset_19
+    21300040: InfectedStationTileset_20
+    21300042: InfectedStationTileset_21
+    21300044: InfectedStationTileset_22
+    21300046: InfectedStationTileset_23
+    21300048: InfectedStationTileset_24
+    21300050: InfectedStationTileset_25
+    21300052: InfectedStationTileset_26
+    21300054: InfectedStationTileset_27
+    21300056: InfectedStationTileset_28
+    21300058: InfectedStationTileset_29
+    21300060: InfectedStationTileset_30
+    21300062: InfectedStationTileset_31
+    21300064: InfectedStationTileset_32
+    21300066: InfectedStationTileset_33
+    21300068: InfectedStationTileset_34
+    21300070: InfectedStationTileset_35
+    21300072: InfectedStationTileset_38
+    21300074: InfectedStationTileset_39
+    21300076: InfectedStationTileset_48
+    21300078: InfectedStationTileset_49
+    21300080: InfectedStationTileset_50
+    21300082: InfectedStationTileset_51
+    21300084: InfectedStationTileset_53
+    21300086: InfectedStationTileset_54
+    21300088: InfectedStationTileset_55
+    21300090: InfectedStationTileset_56
+    21300092: InfectedStationTileset_57
+    21300094: InfectedStationTileset_58
+    21300096: InfectedStationTileset_60
+    21300098: InfectedStationTileset_61
+    21300100: InfectedStationTileset_62
+    21300102: InfectedStationTileset_63
+    21300104: InfectedStationTileset_64
+    21300106: InfectedStationTileset_65
+    21300108: InfectedStationTileset_66
+    21300110: InfectedStationTileset_68
+    21300112: InfectedStationTileset_70
+    21300114: InfectedStationTileset_71
+    21300116: InfectedStationTileset_72
+    21300118: InfectedStationTileset_73
+    21300120: InfectedStationTileset_75
+    21300122: InfectedStationTileset_76
+    21300124: InfectedStationTileset_78
+    21300126: InfectedStationTileset_79
+    21300128: InfectedStationTileset_81
+    21300130: InfectedStationTileset_82
+    21300132: InfectedStationTileset_84
+    21300134: InfectedStationTileset_85
+    21300136: InfectedStationTileset_86
+    21300138: InfectedStationTileset_87
+    21300140: InfectedStationTileset_88
+    21300142: InfectedStationTileset_89
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -56,7 +118,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 48
+  spritePixelsToUnits: 16
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -143,175 +205,1009 @@ TextureImporter:
       name: InfectedStationTileset_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 100
-        width: 50
-        height: 50
+        x: 1
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -25, y: 25}
-        - {x: -25, y: -25}
-        - {x: 25, y: -25}
-        - {x: 25, y: 25}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: InfectedStationTileset_1
       rect:
         serializedVersion: 2
-        x: 50
-        y: 100
-        width: 50
-        height: 50
+        x: 17
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -25, y: 25}
-        - {x: -25, y: -25}
-        - {x: 25, y: -25}
-        - {x: 25, y: 25}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: InfectedStationTileset_2
       rect:
         serializedVersion: 2
-        x: 100
-        y: 100
-        width: 50
-        height: 50
+        x: 33
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -25, y: 25}
-        - {x: -25, y: -25}
-        - {x: 25, y: -25}
-        - {x: 25, y: 25}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: InfectedStationTileset_3
       rect:
         serializedVersion: 2
-        x: 150
-        y: 100
-        width: 50
-        height: 50
+        x: 51
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -25, y: 25}
-        - {x: -25, y: -25}
-        - {x: 25, y: -25}
-        - {x: 25, y: 25}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: InfectedStationTileset_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 50
-        width: 50
-        height: 50
+        x: 67
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -25, y: -23.849709}
-        - {x: 24.096199, y: -24.014034}
-        - {x: 23.849705, y: 24.17836}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: InfectedStationTileset_5
       rect:
         serializedVersion: 2
-        x: 50
-        y: 50
-        width: 50
-        height: 50
+        x: 83
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -24.014034, y: 24.096199}
-        - {x: -24.096199, y: -24.014038}
-        - {x: 24.17836, y: -24.096199}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: InfectedStationTileset_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 50
-        height: 50
+        x: 101
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -23.931871, y: 23.931873}
-        - {x: 23.931873, y: -24.096199}
-        - {x: 23.849705, y: 23.93187}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: InfectedStationTileset_7
       rect:
         serializedVersion: 2
-        x: 50
-        y: 0
-        width: 50
-        height: 50
+        x: 117
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -24.178364, y: 24.014034}
-        - {x: -24.014034, y: -24.178362}
-        - {x: 24.17836, y: 23.93187}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: InfectedStationTileset_8
       rect:
         serializedVersion: 2
-        x: 100
-        y: 0
-        width: 50
-        height: 50
+        x: 133
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -23.93187, y: 24.096199}
-        - {x: -23.849709, y: -24.096199}
-        - {x: 24.342682, y: -23.767544}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: InfectedStationTileset_9
       rect:
         serializedVersion: 2
-        x: 150
-        y: 0
-        width: 50
-        height: 50
+        x: 151
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -24.014038, y: -23.767544}
-        - {x: 24.17836, y: -24.014034}
-        - {x: 23.93187, y: 23.931873}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_20
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_22
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_23
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 117
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_26
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_31
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_32
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_33
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_34
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_35
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 101
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_48
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_49
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_50
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_51
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_54
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_55
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_56
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_57
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_58
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_62
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_63
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_64
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_65
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_66
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_68
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_70
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_71
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_72
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_73
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_76
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_78
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_79
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_81
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_82
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_84
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_85
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_86
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_87
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_88
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InfectedStationTileset_89
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
     outline: []
     physicsShape: []

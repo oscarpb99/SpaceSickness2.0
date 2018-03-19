@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
 	public GameObject playerprefab;
 
 
-	void Awake () {
+	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
 		GameManager.instance.oxigeno = GameManager.instance.maxoxigeno;
 	}
@@ -44,6 +44,18 @@ public class PlayerController : MonoBehaviour {
 		spawned.transform.position = spawn.position;
 		GameManager.instance.player = spawned;
 		Destroy(gameObject);
+	}
+
+	void OnTriggerEnter2D(Collider2D col){
+		if (col.gameObject.tag == "puerta") {
+				col.GetComponentInParent<ScriptPuerta> ().jugadorEnRango = true;
+		}
+	}
+	void OnTriggerExit2D(Collider2D col){
+		if (col.gameObject.tag == "puerta") {
+			col.GetComponent<ScriptPuerta> ().jugadorEnRango = false;
+		}
+
 	}
 		
 
