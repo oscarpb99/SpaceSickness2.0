@@ -50,7 +50,7 @@ public class Interruptor : MonoBehaviour {
         observers = new List<Observer>();
         thisExtent = gameObject.GetComponent<Collider2D>().bounds.extents;
         thisPosition = gameObject.transform.position;
-		observers.Add(new Observer(objeto, funcion, "muestraOff"));
+		observers.Add(new Observer(objeto, funcion));
     }
 	
 	// Update is called once per frame
