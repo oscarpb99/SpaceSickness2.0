@@ -6,7 +6,7 @@ using UnityEngine;
 
 public enum DireccionGravedad
 {
-    Izquierda, Derecha, Arriba, Abajo
+    Izquierda, Derecha, Arriba, Abajo, Gravedad0
 }
 
 public class GameManager : MonoBehaviour {

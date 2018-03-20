@@ -10,6 +10,8 @@ public class CambioGravedad : MonoBehaviour {
 	bool gravedadAbajo;
 	bool gravedadIzquierda;
 	bool gravedadDerecha;
+	bool gravedad0;//GRAVEDAD0
+
 	bool cayendo=false; //declara si el personaje está cayendo
 	public GameObject sala;
 
@@ -48,6 +50,8 @@ public class CambioGravedad : MonoBehaviour {
 		if (Input.GetKey (KeyCode.RightArrow) && gravedadDerecha) sala.gameObject.GetComponent<GuardaGravedad>().gravedadsala = new Vector2 (20f, 0f);
 		
 		if (Input.GetKey (KeyCode.LeftArrow) && gravedadIzquierda) sala.gameObject.GetComponent<GuardaGravedad>().gravedadsala = new Vector2 (-20f, 0f);
+
+		if(gravedad0) sala.gameObject.GetComponent<GuardaGravedad>().gravedadsala = new Vector2 (0f, 0f);
 		
 	}
 
@@ -58,6 +62,7 @@ public class CambioGravedad : MonoBehaviour {
 			gravedadAbajo = room.gameObject.GetComponent<GuardaGravedad> ().gravabajo;
 			gravedadDerecha = room.gameObject.GetComponent<GuardaGravedad> ().gravderecha;
 			gravedadIzquierda = room.gameObject.GetComponent<GuardaGravedad> ().gravizquierda;
+			gravedad0 = room.gameObject.GetComponent<GuardaGravedad> ().grav0; //GRAVEDAD0
 			GameManager.instance.grav = room.gameObject.GetComponent<GuardaGravedad> ().gravedadsala;//en cuanto se entra en la sala se cambia el estado de la gravedad al estado de gravedad guardado en la sala
 		}
 
