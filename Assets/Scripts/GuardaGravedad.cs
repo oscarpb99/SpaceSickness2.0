@@ -44,6 +44,7 @@ public class GuardaGravedad : MonoBehaviour {
 
 		if (jugadorPresente) {
 			GameManager.instance.grav = gravedadsala;
+            GameManager.instance.SetCurrentGravity(this);
 		}
 	}
 
