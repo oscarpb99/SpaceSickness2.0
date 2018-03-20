@@ -16,7 +16,7 @@ public class CambioGravedad : MonoBehaviour {
 	public GameObject sala;
 
 
-	void Awake(){
+	void Start(){
 		rb = gameObject.GetComponent<Rigidbody2D> ();
 	}
 

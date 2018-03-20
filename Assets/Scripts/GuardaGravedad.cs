@@ -11,6 +11,7 @@ public class GuardaGravedad : MonoBehaviour {
 	public Rigidbody2D rb;
 
 	public Vector2 gravedadsala;
+	public Vector2 gravedadinicial;
 	public bool oxigeno;//guarda la direccion de la gravedad propia de la sala
 	private DireccionGravedad direccion;
 	bool jugadorPresente = false;//determina si el jugador está en esta sala
@@ -50,13 +51,17 @@ public class GuardaGravedad : MonoBehaviour {
         if (col.gameObject.tag == "player")
         {
             GameManager.instance.indicador.updateButtons(this);
+			gravedadsala = gravedadinicial;
             jugadorPresente = true;
+
         }
 	}
 
 	void OnTriggerExit2D(Collider2D col){
-		if (col.gameObject.tag == "player")
+		if (col.gameObject.tag == "player") {
 			jugadorPresente = false;
+		}
+			
 	}
 		 
     public DireccionGravedad GetDireccion ()

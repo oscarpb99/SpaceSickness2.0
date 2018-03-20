@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour {
 		Destroy(gameObject);
 	}
 
+	/*
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.tag == "puerta") {
 				col.GetComponentInParent<ScriptPuerta> ().jugadorEnRango = true;
@@ -58,6 +59,7 @@ public class PlayerController : MonoBehaviour {
 		}
 
 	}
+	*/
 		
 
 }

@@ -7,6 +7,7 @@ public class ScriptPuerta : MonoBehaviour {
 	bool abierta=false;
 	int contador;
 	public bool jugadorEnRango=false;
+	public GameObject collider;
 	
 
 	void FixedUpdate () {
@@ -30,7 +31,24 @@ public class ScriptPuerta : MonoBehaviour {
 	}
 
 	void AbreCierra(){
-		GetComponent<BoxCollider2D> ().enabled = !abierta;
+		collider.GetComponent<BoxCollider2D> ().enabled = !abierta;
+		GetComponent<SpriteRenderer>().enabled = !abierta; 
+	}
+
+	void OnTriggerEnter2D(Collider2D col){
+		if (col.gameObject.tag == "player") {
+			jugadorEnRango = true;
+		}
+	}
+	void OnTriggerExit2D(Collider2D col){
+		if (col.gameObject.tag == "player") {
+			jugadorEnRango = false;
+		}
+
+	}
+
+	void Desbloquear(){
+		bloqueada = false;
 	}
 }
 		

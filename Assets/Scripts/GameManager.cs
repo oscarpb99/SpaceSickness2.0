@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour {
 		
 	// Update is called once per frame
 	void Update () {
-		Physics2D.gravity = grav;//se encarga de actualizar el estado de gravedad en base a una variable que es modificada en cada sala (grav)
+		Physics2D.gravity = salaactual.GetComponent<GuardaGravedad>().gravedadsala;//se encarga de actualizar el estado de gravedad en base a una variable que es modificada en cada sala (grav)
 	}
 	void FixedUpdate() {
 		if (!salaactual.GetComponent<GuardaGravedad> ().oxigeno)
