@@ -27,8 +27,15 @@ public class GuardaGravedad : MonoBehaviour {
 		else if (gravedadsala.y < 0)
 			direccion = DireccionGravedad.Abajo;
 		else if (gravedadsala.x == 0 && gravedadsala.y == 0) {
-			if (Input.GetKey (KeyCode.Space)) {
-				rb.AddForce(transform.up * 7.6f);
+			rb.gravityScale = 0f;
+			if (Input.GetKey (KeyCode.LeftArrow)) {
+				rb.AddForce(-transform.right * 8f);
+			}else if (Input.GetKey (KeyCode.UpArrow)) {
+				rb.AddForce(transform.up * 8f);
+			}else if (Input.GetKey (KeyCode.RightArrow)) {
+				rb.AddForce(transform.right * 8f);
+			}else if (Input.GetKey (KeyCode.DownArrow)) {
+				rb.AddForce(-transform.up * 8f);
 			}
 		}
 			

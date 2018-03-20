@@ -184,17 +184,17 @@ Prefab:
     - target: {fileID: 114475009803566514, guid: 6dcff53cd28cd5d41827dc649dc74df9,
         type: 2}
       propertyPath: gravderecha
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114475009803566514, guid: 6dcff53cd28cd5d41827dc649dc74df9,
         type: 2}
       propertyPath: gravizquierda
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114475009803566514, guid: 6dcff53cd28cd5d41827dc649dc74df9,
         type: 2}
       propertyPath: grav0
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114475009803566514, guid: 6dcff53cd28cd5d41827dc649dc74df9,
         type: 2}
@@ -724,7 +724,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4836083899501674, guid: d7878f7d873e8344e9e56850ff21fffe, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.52
+      value: -0.17
       objectReference: {fileID: 0}
     - target: {fileID: 4836083899501674, guid: d7878f7d873e8344e9e56850ff21fffe, type: 2}
       propertyPath: m_LocalPosition.z
