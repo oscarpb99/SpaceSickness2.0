@@ -11,7 +11,7 @@ public class ScriptPuerta : MonoBehaviour {
 	
 
 	void FixedUpdate () {
-	if (!abierta && Input.GetKey (KeyCode.Space)) 
+		if (!abierta && Input.GetKey (KeyCode.Space)) 
 		{
 			if (jugadorEnRango)
 			{
@@ -31,8 +31,10 @@ public class ScriptPuerta : MonoBehaviour {
 	}
 
 	void AbreCierra(){
-		collider.GetComponent<BoxCollider2D> ().enabled = !abierta;
-		GetComponent<SpriteRenderer>().enabled = !abierta; 
+		if (!bloqueada) {
+			collider.GetComponent<BoxCollider2D> ().enabled = !abierta;
+			GetComponent<SpriteRenderer> ().enabled = !abierta; 
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
