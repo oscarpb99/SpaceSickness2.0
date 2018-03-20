@@ -37,7 +37,8 @@ public class Interruptor : MonoBehaviour {
     List<Observer> observers;   //Lista de observadores que responderán al presionar el interruptor.
     Vector3 thisExtent;
     Vector3 thisPosition;
-    public PruebaTrigger objeto;
+	public MonoBehaviour objeto;
+	public string funcion;
     private DireccionGravedad currentGravity;
     public DireccionGravedad gravedadBoton;
     private GameObject currentObject;   // Objeto que está presionando el interruptor.
@@ -49,11 +50,7 @@ public class Interruptor : MonoBehaviour {
         observers = new List<Observer>();
         thisExtent = gameObject.GetComponent<Collider2D>().bounds.extents;
         thisPosition = gameObject.transform.position;
-<<<<<<< HEAD
 		observers.Add(new Observer(objeto, funcion));
-=======
-        observers.Add(new Observer(objeto, "muestraOn", "muestraOff"));
->>>>>>> parent of 2599eed... Cambios Interruptor
     }
 	
 	// Update is called once per frame
