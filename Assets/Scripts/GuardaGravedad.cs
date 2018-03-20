@@ -50,13 +50,10 @@ public class GuardaGravedad : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
         if (col.gameObject.tag == "player")
         {
-<<<<<<< HEAD
-            GameManager.instance.indicador.updateButtons(this);
 			gravedadsala = gravedadinicial;
-=======
-            if(GameManager.instance.indicador != null)
-                GameManager.instance.indicador.updateButtons(this);
->>>>>>> 8c9b1f11604d9bcf26c67fc97d59b3f13c0fb2af
+           if(GameManager.instance.indicador != null)
+               GameManager.instance.indicador.updateButtons(this);
+
             jugadorPresente = true;
 
         }
