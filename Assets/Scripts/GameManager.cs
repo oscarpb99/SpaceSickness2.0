@@ -32,15 +32,19 @@ public class GameManager : MonoBehaviour {
 		
 	// Update is called once per frame
 	void Update () {
+		if(salaactual!=null)
 		Physics2D.gravity = salaactual.GetComponent<GuardaGravedad>().gravedadsala;//se encarga de actualizar el estado de gravedad en base a una variable que es modificada en cada sala (grav)
 	}
 	void FixedUpdate() {
-		if (!salaactual.GetComponent<GuardaGravedad> ().oxigeno)
-			RestaOxigeno ();
-		else
-			AumentaOxigeno ();
+		if (salaactual != null&& oxigenbar!=null) {
+			if (!salaactual.GetComponent<GuardaGravedad> ().oxigeno)
+				RestaOxigeno ();
+			else
+				AumentaOxigeno ();
 		
-		if(oxigeno>0) oxigenbar.GetComponent<RectTransform> ().localScale = new Vector3 (oxigeno / maxoxigeno, 1f, 1f);
+			if (oxigeno > 0)
+				oxigenbar.GetComponent<RectTransform> ().localScale = new Vector3 (oxigeno / maxoxigeno, 1f, 1f);
+		}
 	}
     public DireccionGravedad GetDirection()
     {
