@@ -70,19 +70,19 @@ public class Interruptor : MonoBehaviour {
             {
                 // probar
                 case DireccionGravedad.Abajo:
-                    if (position.y - extent.y >= thisPosition.y + (thisExtent.y - 0.1))
+                    if (position.y - extent.y <= thisPosition.y + (thisExtent.y - 0.1))
                         activar = true;
                     break;
                 case DireccionGravedad.Arriba:
-                    if (position.y + extent.y <= thisPosition.y - (thisExtent.y - 0.1))
+                    if (position.y + extent.y >= thisPosition.y - (thisExtent.y - 0.1))
                         activar = true;
                     break;
                 case DireccionGravedad.Izquierda:
-                    if (position.x - extent.x >= thisPosition.x + (thisExtent.x - 0.1))
+                    if (position.x - extent.x <= thisPosition.x + (thisExtent.x - 0.1))
                         activar = true;
                     break;
                 case DireccionGravedad.Derecha:
-                    if (position.x + extent.x <= thisPosition.y - (thisExtent.x - 0.1))
+                    if (position.x + extent.x >= thisPosition.y - (thisExtent.x - 0.1))
                         activar = true;
                     break;
                 default:
