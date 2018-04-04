@@ -11,19 +11,18 @@ public class ScriptPuerta : MonoBehaviour {
 	
 
 	void FixedUpdate () {
-	if (!abierta && Input.GetKey (KeyCode.Space)) 
-		{
-			if (jugadorEnRango)
-			{
-				abierta = true;
-				contador = 100;
+		if (!bloqueada) {
+			if (!abierta && Input.GetKey (KeyCode.Space)) {
+				if (jugadorEnRango) {
+					abierta = true;
+					contador = 100;
+				}
+			} else {
+				if (contador <= 0)
+					abierta = false;
+				else
+					contador--;
 			}
-		} else 
-		{
-			if (contador <= 0)
-				abierta = false;
-			else
-				contador--;
 		}
 
 		AbreCierra ();
@@ -49,6 +48,10 @@ public class ScriptPuerta : MonoBehaviour {
 
 	void Desbloquear(){
 		bloqueada = false;
+	}
+
+	void Bloquear(){
+		bloqueada = true;
 	}
 }
 		
