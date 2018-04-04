@@ -28,6 +28,11 @@ public class PlayerController : MonoBehaviour {
 
 		if (Mathf.Abs (rb.velocity.x) <= 0.3f && Mathf.Abs (rb.velocity.y) <= 0.3f)
 			rb.velocity = new Vector2 (0, 0);
+
+		if (Input.GetKey (KeyCode.R)) {
+			gameObject.transform.position = spawn.position;
+			GameManager.instance.ReiniciaSala ();
+		}
 	}
 		
 	void Movimiento () {
@@ -41,6 +46,7 @@ public class PlayerController : MonoBehaviour {
 		if (spawn != null) {
 			GameObject spawned = Instantiate (playerprefab);
 			spawned.transform.position = spawn.position;
+			GameManager.instance.ReiniciaSala ();
 		}
 		Destroy(gameObject);
 	}

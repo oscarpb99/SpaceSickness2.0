@@ -9,6 +9,7 @@ public class GuardaGravedad : MonoBehaviour {
 	public bool gravizquierda;
 	public bool grav0;//GRAVEDAD0
 	public Rigidbody2D rb;
+	public GameObject[] objetos= new GameObject[10];
 
 	public Vector2 gravedadsala;
 	public Vector2 gravedadinicial;
@@ -16,7 +17,15 @@ public class GuardaGravedad : MonoBehaviour {
 	private DireccionGravedad direccion;
 	bool jugadorPresente = false;//determina si el jugador está en esta sala
 
+	int s;
 
+	void Start(){
+		for (int i = 0; i < objetos.Length; i++) {
+			objetos [i] = null;
+		}
+
+		s = 0;
+	}
 
     void Update(){
 		if (gravedadsala.x < 0)
@@ -58,6 +67,10 @@ public class GuardaGravedad : MonoBehaviour {
             jugadorPresente = true;
 
         }
+		if (col.gameObject.tag == "obj") {
+			objetos [s] = col.gameObject;
+			s++;
+		}
 	}
 
 	void OnTriggerExit2D(Collider2D col){
@@ -74,6 +87,11 @@ public class GuardaGravedad : MonoBehaviour {
 
 	public bool GetPresencia (){
 		return jugadorPresente;
+	}
+		
+	public GameObject[] GetObjetos (){
+		return objetos;
+
 	}
 		
 

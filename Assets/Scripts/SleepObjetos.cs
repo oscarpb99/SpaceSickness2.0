@@ -5,6 +5,7 @@ using UnityEngine;
 //script que congela los objetos que estén en una sala distinta de la sala en la que esté el jugador. Todos los objetos físicos como cajas, etc deben llevarlo
 public class SleepObjetos : MonoBehaviour {
 	GameObject sala=null;
+	public GameObject posinicial;
 	
 	// Update is called once per frame
 	void Update () {
@@ -20,6 +21,11 @@ public class SleepObjetos : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.tag == "sala")
 			sala = col.gameObject;//guarda la referencia de la sala donde se encuentra el objeto
+
+	}
+
+	public void ReseteaPosicion(){
+		gameObject.transform.position = posinicial.transform.position;
 
 	}
 }
