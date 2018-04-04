@@ -38,7 +38,8 @@ public class Interruptor : MonoBehaviour {
     Vector3 thisExtent;
     Vector3 thisPosition;
 	public MonoBehaviour objeto;
-	public string funcion;
+	public string funcionPresionar;
+    public string funcionSoltar;
     private DireccionGravedad currentGravity;
     public DireccionGravedad gravedadBoton;
     private GameObject currentObject;   // Objeto que está presionando el interruptor.
@@ -50,7 +51,7 @@ public class Interruptor : MonoBehaviour {
         observers = new List<Observer>();
         thisExtent = gameObject.GetComponent<Collider2D>().bounds.extents;
         thisPosition = gameObject.transform.position;
-		observers.Add(new Observer(objeto, funcion));
+		observers.Add(new Observer(objeto, funcionPresionar, funcionSoltar));
     }
 	
 	// Update is called once per frame
