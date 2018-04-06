@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114089287262832196}
   - component: {fileID: 212036611268275158}
   m_Layer: 0
-  m_Name: "ObjetoF\xEDsico"
+  m_Name: "ObjetoF+\xA1sico"
   m_TagString: obj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b5f8ddd4aa349849b865b56f6ca8b65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  posinicial: {fileID: 0}
 --- !u!212 &212036611268275158
 SpriteRenderer:
   m_ObjectHideFlags: 1
