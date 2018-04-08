@@ -8,7 +8,12 @@ public class ScriptPuerta : MonoBehaviour {
 	int contador;
 	public bool jugadorEnRango=false;
 	public GameObject collider;
+	Animator anim;
 	
+	void Start(){
+		anim = GetComponent<Animator> ();
+	}
+
 
 	void FixedUpdate () {
 		if (!bloqueada) {
@@ -23,15 +28,15 @@ public class ScriptPuerta : MonoBehaviour {
 				else
 					contador--;
 			}
-		}
+		} else
+			abierta = false;
 
 		AbreCierra ();
-
+		Animaciones ();
 	}
 
 	void AbreCierra(){
 		collider.GetComponent<BoxCollider2D> ().enabled = !abierta;
-		GetComponent<SpriteRenderer>().enabled = !abierta; 
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
@@ -52,6 +57,17 @@ public class ScriptPuerta : MonoBehaviour {
 
 	void Bloquear(){
 		bloqueada = true;
+	}
+
+	void Animaciones(){
+		if (bloqueada)
+			anim.SetInteger ("State", 2);
+		else {
+			if (abierta)
+				anim.SetInteger ("State", 1);
+			else
+				anim.SetInteger ("State", 0);
+		}
 	}
 }
 		
