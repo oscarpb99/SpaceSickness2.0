@@ -9,6 +9,7 @@ public class ScriptPuerta : MonoBehaviour {
 	public bool jugadorEnRango=false;
 	public GameObject collider;
 	Animator anim;
+    public IdTarjeta id;
 	
 	void Start(){
 		anim = GetComponent<Animator> ();
@@ -16,20 +17,14 @@ public class ScriptPuerta : MonoBehaviour {
 
 
 	void FixedUpdate () {
-		if (!bloqueada) {
-			if (!abierta && Input.GetKey (KeyCode.Space)) {
-				if (jugadorEnRango) {
-					abierta = true;
-					contador = 100;
-				}
-			} else {
-				if (contador <= 0)
-					abierta = false;
-				else
-					contador--;
-			}
-		} else
-			abierta = false;
+        if (id == IdTarjeta.NO_TARJETA && !bloqueada)
+        {
+            Abrir();
+        }
+        else if (id != IdTarjeta.NO_TARJETA && Tarjetas.instance.getOpen(id))
+            Abrir();
+        else
+            abierta = false;
 
 		AbreCierra ();
 		Animaciones ();
@@ -69,5 +64,24 @@ public class ScriptPuerta : MonoBehaviour {
 				anim.SetInteger ("State", 0);
 		}
 	}
+
+    void Abrir()
+    {
+        if (!abierta && Input.GetKey(KeyCode.Space))
+        {
+            if (jugadorEnRango)
+            {
+                abierta = true;
+                contador = 100;
+            }
+        }
+        else
+        {
+            if (contador <= 0)
+                abierta = false;
+            else
+                contador--;
+        }
+    }
 }
 		
