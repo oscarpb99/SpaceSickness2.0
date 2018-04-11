@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemigoPlanta : MonoBehaviour {
 	GameObject sala;
+    public GameObject head;
 
 	// Update is called once per frame
 	void Update () {
@@ -16,7 +17,10 @@ public class EnemigoPlanta : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D col){
 		if (col.gameObject.tag == "sala")
 			sala = col.gameObject;
-		if (col.gameObject.tag == "player")
-			col.gameObject.GetComponent<PlayerController> ().Die ();
+        if (col.gameObject.tag == "player")
+        {
+            head.transform.position = col.gameObject.transform.position;
+            col.gameObject.GetComponent<PlayerController>().Die();
+        }
 	}
 }
