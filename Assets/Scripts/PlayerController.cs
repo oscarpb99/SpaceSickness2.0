@@ -50,9 +50,12 @@ public class PlayerController : MonoBehaviour
     void Movimiento()
     {
         salaactual = GameManager.instance.salaactual;
-        if (salaactual.GetComponent<GuardaGravedad>().GetDireccion() == DireccionGravedad.Derecha || salaactual.GetComponent<GuardaGravedad>().GetDireccion() == DireccionGravedad.Izquierda)
-            transform.Translate(new Vector3(0, Input.GetAxis("Vertical") * speed * Time.deltaTime, 0));
-        else transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0, 0));
+        if (salaactual.GetComponent<GuardaGravedad>().GetDireccion() == DireccionGravedad.Derecha)
+			transform.Translate(new Vector3(Input.GetAxis("Vertical") * speed * Time.deltaTime, 0, 0));
+		else if (salaactual.GetComponent<GuardaGravedad>().GetDireccion() == DireccionGravedad.Izquierda) 
+			transform.Translate(new Vector3(-Input.GetAxis("Vertical") * speed * Time.deltaTime, 0, 0));
+		else if (salaactual.GetComponent<GuardaGravedad>().GetDireccion()==DireccionGravedad.Abajo) transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0, 0));
+		else transform.Translate(new Vector3(-Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0, 0));
     }
 
     public void Die()
