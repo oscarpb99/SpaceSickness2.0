@@ -1304,6 +1304,11 @@ Prefab:
       propertyPath: controlmovimiento
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23777278622172826, guid: d7878f7d873e8344e9e56850ff21fffe,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 960db0c5062456249bfaceefd759fb11, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d7878f7d873e8344e9e56850ff21fffe, type: 2}
   m_IsPrefabParent: 0
