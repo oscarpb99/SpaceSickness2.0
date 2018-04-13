@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     Quaternion currentRotation;
 
 
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -74,6 +76,8 @@ public class PlayerController : MonoBehaviour
         currentRotation = spriteRenderer.transform.rotation;
 
         DireccionGravedad direccionActual = salaactual.GetComponent<GuardaGravedad>().GetDireccion();
+
+
 
         if ((direccionActual == DireccionGravedad.Arriba || direccionActual == DireccionGravedad.Abajo) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
             animator.SetBool("movimiento", true);
