@@ -13,6 +13,7 @@ TagManager:
   - Undefined
   - player
   - puerta
+  - camerapos
   layers:
   - Default
   - TransparentFX

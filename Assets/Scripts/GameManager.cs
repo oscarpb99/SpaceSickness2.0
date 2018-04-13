@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject camera;
 	public GameObject player;
     public IndicadorGravedad indicador;
+	GameObject camerapos;
 
 
 	void Awake() {
@@ -73,6 +74,14 @@ public class GameManager : MonoBehaviour {
 			i++;
 		}
 
+	}
+
+	public GameObject GetCamerapos(){
+		return camerapos;
+	}
+
+	public void SetCamerapos(GameObject Camerapos){
+		camerapos = Camerapos;
 	}
 
 		

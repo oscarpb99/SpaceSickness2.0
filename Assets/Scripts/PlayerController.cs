@@ -46,7 +46,6 @@ public class PlayerController : MonoBehaviour
         }
 
         SpriteFlip();
-
     }
 
     void Movimiento()
@@ -134,6 +133,7 @@ public class PlayerController : MonoBehaviour
 
                 break;
         }
+
     }
 }
 

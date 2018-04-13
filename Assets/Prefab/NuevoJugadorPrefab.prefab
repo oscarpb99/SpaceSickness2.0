@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 61230609951990168}
   - component: {fileID: 212731075609704154}
   - component: {fileID: 95604015062164876}
+  - component: {fileID: 114872028669153930}
   m_Layer: 0
   m_Name: NuevoJugadorPrefab
   m_TagString: player
@@ -39,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1043649563528570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.96, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 2.11, z: 0}
   m_LocalScale: {x: 3.0032747, y: 2.6909375, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -135,6 +136,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   margenmovimiento: 0.1
   sala: {fileID: 0}
+--- !u!114 &114872028669153930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043649563528570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b5534ddd343894ab893ebd6de1b9e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212731075609704154
 SpriteRenderer:
   m_ObjectHideFlags: 1

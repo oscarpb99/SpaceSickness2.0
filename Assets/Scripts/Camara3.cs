@@ -3,16 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Camara3 : MonoBehaviour {
+	GameObject camera;
 
-
-	// Use this for initialization
-	void Awake () {
-
+	void Update(){
+		camera = GameManager.instance.GetCamerapos ();
+		gameObject.transform.position = new Vector3 (camera.transform.position.x, camera.transform.position.y, -10);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		gameObject.transform.position = new Vector3 (GameManager.instance.salaactual.transform.position.x, GameManager.instance.salaactual.transform.position.y, -10);
-		Camera.main.orthographicSize = GameManager.instance.salaactual.transform.localScale.x/3f;
-	}
+
+
 }
