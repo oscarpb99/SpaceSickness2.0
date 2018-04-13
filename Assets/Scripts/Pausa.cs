@@ -1,22 +1,37 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Pausa : MonoBehaviour {
 	bool pause=false;
+	public GameObject PauseMenu;
+
 
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown ("p") && pause == false) 
 		{
+			PauseMenu.SetActive (true);
 			pause = true;
 			Time.timeScale = 0;
+
+
 		}
 		else if (Input.GetKeyDown ("p") && pause == true) 
 		{
+			PauseMenu.SetActive (false);
 			pause = false;
 			Time.timeScale = 1;
 		}
 		
+	}
+	public void Resume(){
+		PauseMenu.SetActive (false);
+		pause = false;
+		Time.timeScale = 1;
+		}
+	public void QuitGame(){
+		SceneManager.LoadScene("Menu");
 	}
 }
