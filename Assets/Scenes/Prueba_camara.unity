@@ -155,7 +155,7 @@ Prefab:
     - target: {fileID: 114475009803566514, guid: 6dcff53cd28cd5d41827dc649dc74df9,
         type: 2}
       propertyPath: gravedadinicial.y
-      value: 20
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 4366979687819806, guid: 6dcff53cd28cd5d41827dc649dc74df9, type: 2}
       propertyPath: m_LocalScale.y
@@ -344,6 +344,11 @@ Prefab:
         type: 2}
       propertyPath: oxigeno
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114475009803566514, guid: 6dcff53cd28cd5d41827dc649dc74df9,
+        type: 2}
+      propertyPath: gravedadsala.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6dcff53cd28cd5d41827dc649dc74df9, type: 2}

@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 2f;
     public bool controlmovimiento = false;
-    GameObject salaactual = null;
     Rigidbody2D rb;
     public Transform spawn;
     public GameObject playerprefab;
@@ -30,6 +29,7 @@ public class PlayerController : MonoBehaviour
     {
         //GameManager.instance.SetCurrentGravity(salaactual.GetComponent<GuardaGravedad>());
 
+
         if (GameManager.instance.oxigeno <= 0)
             Die();
 
@@ -50,13 +50,20 @@ public class PlayerController : MonoBehaviour
 
     void Movimiento()
     {
-        salaactual = GameManager.instance.salaactual;
-        if (salaactual.GetComponent<GuardaGravedad>().GetDireccion() == DireccionGravedad.Derecha)
-			transform.Translate(new Vector3(Input.GetAxis("Vertical") * speed * Time.deltaTime, 0, 0));
-		else if (salaactual.GetComponent<GuardaGravedad>().GetDireccion() == DireccionGravedad.Izquierda) 
-			transform.Translate(new Vector3(-Input.GetAxis("Vertical") * speed * Time.deltaTime, 0, 0));
-		else if (salaactual.GetComponent<GuardaGravedad>().GetDireccion()==DireccionGravedad.Abajo) transform.Translate(new Vector3(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0, 0));
-		else transform.Translate(new Vector3(-Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0, 0));
+		DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
+		if (direccionActual == DireccionGravedad.Gravedad0) {
+			transform.Translate (new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0));
+		} 
+		else {
+			if (direccionActual == DireccionGravedad.Derecha)
+				transform.Translate (new Vector3 (Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0, 0));
+			else if (direccionActual == DireccionGravedad.Izquierda)
+				transform.Translate (new Vector3 (-Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0, 0));
+			else if (direccionActual == DireccionGravedad.Abajo)
+				transform.Translate (new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0, 0));
+			else
+				transform.Translate (new Vector3 (-Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0, 0));
+		}
     }
 
     public void Die()
@@ -73,10 +80,7 @@ public class PlayerController : MonoBehaviour
     public void SpriteFlip()
     {
         currentRotation = spriteRenderer.transform.rotation;
-
-        DireccionGravedad direccionActual = salaactual.GetComponent<GuardaGravedad>().GetDireccion();
-
-
+		DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
 
         if ((direccionActual == DireccionGravedad.Arriba || direccionActual == DireccionGravedad.Abajo) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
             animator.SetBool("movimiento", true);
@@ -87,7 +91,7 @@ public class PlayerController : MonoBehaviour
 
         switch (direccionActual) // flip en las 4 direcciones segun la gravedad
         {
-            case DireccionGravedad.Arriba:
+		case DireccionGravedad.Arriba:
                 spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 180f);
 
                 if (Input.GetKeyDown(KeyCode.A))
@@ -106,6 +110,16 @@ public class PlayerController : MonoBehaviour
                     spriteRenderer.flipX = false;
 
                 break;
+
+			case DireccionGravedad.Gravedad0:
+				spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 0);
+
+				if (Input.GetKeyDown(KeyCode.A))
+					spriteRenderer.flipX = true;
+				else if (Input.GetKeyDown(KeyCode.D))
+					spriteRenderer.flipX = false;
+				
+				break;
 
             case DireccionGravedad.Izquierda:
                 if (currentRotation.z == 0)

@@ -10,18 +10,16 @@ public class Pausa : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown ("p") && pause == false) 
+		if (Input.GetKeyDown ("p")) 
 		{
-			PauseMenu.SetActive (true);
-			pause = true;
-			Time.timeScale = 0;
-
-
+			pause = !pause;
 		}
-		else if (Input.GetKeyDown ("p") && pause == true) 
-		{
+
+		if (pause) {
+			PauseMenu.SetActive (true);
+			Time.timeScale = 0;
+		} else {
 			PauseMenu.SetActive (false);
-			pause = false;
 			Time.timeScale = 1;
 		}
 		
@@ -33,5 +31,6 @@ public class Pausa : MonoBehaviour {
 		}
 	public void QuitGame(){
 		SceneManager.LoadScene("Menu");
+		pause = false;
 	}
 }
