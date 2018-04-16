@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4937925944620970}
   - component: {fileID: 61509883234602220}
   - component: {fileID: 50272226727807822}
+  - component: {fileID: 114049871580619966}
   m_Layer: 0
   m_Name: CameraPos
   m_TagString: camerapos
@@ -86,3 +87,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &114049871580619966
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1758861534639128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bc09319e537f447bf9c224c3d33144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoom: 1

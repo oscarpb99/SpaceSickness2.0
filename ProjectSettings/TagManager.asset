@@ -4,13 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - pared
   - sala
-  - CheckPoints
-  - Bad Floor
   - obj
   - enemy
-  - Undefined
   - player
   - puerta
   - camerapos
