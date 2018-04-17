@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Pausa : MonoBehaviour {
 	bool pause=false;
 	public GameObject PauseMenu;
-
+	public PlayerController player;
 
 	// Update is called once per frame
 	void Update () {
@@ -18,9 +18,14 @@ public class Pausa : MonoBehaviour {
 		if (pause) {
 			PauseMenu.SetActive (true);
 			Time.timeScale = 0;
+			player.enabled = false;
+
+
+
 		} else {
 			PauseMenu.SetActive (false);
 			Time.timeScale = 1;
+			player.enabled=true;
 		}
 		
 	}
@@ -28,9 +33,11 @@ public class Pausa : MonoBehaviour {
 		PauseMenu.SetActive (false);
 		pause = false;
 		Time.timeScale = 1;
+		player.enabled = true;
 		}
 	public void QuitGame(){
 		SceneManager.LoadScene("Menu");
 		pause = false;
+		player.enabled = true;
 	}
 }
