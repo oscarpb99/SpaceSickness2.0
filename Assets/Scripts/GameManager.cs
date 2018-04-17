@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject player;
     public IndicadorGravedad indicador;
 	GameObject camerapos;
+	GameObject ultimasala=null;
 
 
 	void Awake() {
@@ -84,5 +85,12 @@ public class GameManager : MonoBehaviour {
 		camerapos = Camerapos;
 	}
 
+	public void SetUltimaSala(GameObject sala){
+		ultimasala = sala;
+	}
+
+	public GameObject GetUltimaSala(){
+		return ultimasala;
+	}
 		
 }

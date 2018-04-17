@@ -47,9 +47,16 @@ public class GuardaGravedad : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
         if (col.gameObject.tag == "player")
         {
-			gravedadsala = gravedadinicial;
+			GameObject ultimasala=GameManager.instance.GetUltimaSala ();
+
+			if(ultimasala==null||(ultimasala!=this.gameObject)){
+				gravedadsala=gravedadinicial;
+				GameManager.instance.SetUltimaSala (this.gameObject);
+			}
+
            if(GameManager.instance.indicador != null)
                GameManager.instance.indicador.updateButtons(this);
+			
 
             jugadorPresente = true;
 
