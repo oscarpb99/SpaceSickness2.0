@@ -52,7 +52,12 @@ public class PlayerController : MonoBehaviour
     {
 		DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
 		if (direccionActual == DireccionGravedad.Gravedad0) {
-			transform.Translate (new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0));
+			float x = Input.GetAxis ("Horizontal");
+			float y = Input.GetAxis ("Vertical");
+			if (x != 0 || y != 0)
+				GameManager.instance.RestaOxigeno ();
+
+			transform.Translate (new Vector3 (x * speed * Time.deltaTime, y * speed * Time.deltaTime, 0));
 		} 
 		else {
 			if (direccionActual == DireccionGravedad.Derecha)
