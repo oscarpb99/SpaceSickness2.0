@@ -5,14 +5,15 @@ using UnityEngine;
 public enum IdTarjeta
 {
     NO_TARJETA = 0,
-    ROJA = 1
+    ROJA = 1,
+	AZUL = 2,
 }
 
 public class Tarjetas : MonoBehaviour {
 
 
     public static Tarjetas instance = null;
-    private const uint numTarjetas = 1;
+    private const uint numTarjetas = 2;
     private bool[] estadoTarjetas = new bool[numTarjetas];
 
     void Awake()
