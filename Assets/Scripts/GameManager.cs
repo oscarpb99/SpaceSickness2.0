@@ -62,6 +62,10 @@ public class GameManager : MonoBehaviour {
 		oxigeno--;
 	}
 
+	public void PropulsaOxigeno(){
+		oxigeno = oxigeno - maxoxigeno * 0.1f;
+	}
+
 	void AumentaOxigeno(){
 		oxigeno = maxoxigeno;
 	}

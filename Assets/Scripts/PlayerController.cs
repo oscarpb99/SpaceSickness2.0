@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
 			float x = Input.GetAxis ("Horizontal");
 			float y = Input.GetAxis ("Vertical");
 			if (x != 0 || y != 0)
-				GameManager.instance.RestaOxigeno ();
+				GameManager.instance.PropulsaOxigeno ();
 
 			transform.Translate (new Vector3 (x * speed * Time.deltaTime, y * speed * Time.deltaTime, 0));
 		} 

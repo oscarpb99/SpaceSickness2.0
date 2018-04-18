@@ -25927,6 +25927,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114955151366283414, guid: 5ce122b83adc1a24595dcc9a9d88bf4b,
+        type: 2}
+      propertyPath: oxigenbar
+      value: 
+      objectReference: {fileID: 1709460099}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5ce122b83adc1a24595dcc9a9d88bf4b, type: 2}
   m_IsPrefabParent: 0
@@ -26285,7 +26290,7 @@ Prefab:
     - target: {fileID: 114475009803566514, guid: 6dcff53cd28cd5d41827dc649dc74df9,
         type: 2}
       propertyPath: gravedadinicial.y
-      value: 0
+      value: -20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6dcff53cd28cd5d41827dc649dc74df9, type: 2}
@@ -27648,6 +27653,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6dcff53cd28cd5d41827dc649dc74df9, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1709460099 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1576168932288598, guid: cf7386f37ed828e47b7a804367e5023e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1737573008}
 --- !u!1001 &1737573008
 Prefab:
   m_ObjectHideFlags: 0
