@@ -87,6 +87,14 @@ public class GuardaGravedad : MonoBehaviour {
 		return objetos;
 
 	}
-		
 
+    public void ZeroGravity()
+    {
+        gravedadsala = Vector2.zero;
+    }
+
+    public void ResetGravity()
+    {
+        gravedadsala = gravedadinicial;
+    }
 }

@@ -96,5 +96,15 @@ public class GameManager : MonoBehaviour {
 	public GameObject GetUltimaSala(){
 		return ultimasala;
 	}
-		
+
+    public void ZeroGravity()
+    {
+        currentGravity.ZeroGravity();
+    }
+
+    public void ResetGravity()
+    {
+        currentGravity.ResetGravity();
+    }
+
 }
