@@ -107,4 +107,9 @@ public class GameManager : MonoBehaviour {
         currentGravity.ResetGravity();
     }
 
+    public void SwitchOxygen()
+    {
+        currentGravity.oxigeno = !currentGravity.oxigeno;
+    }
+
 }

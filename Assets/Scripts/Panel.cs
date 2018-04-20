@@ -6,8 +6,10 @@ public class Panel : MonoBehaviour
 {
 
     bool jugadorEnRango = false;
-    bool zeroGravity = false;
+    bool zeroGravity;
     public Control control;
+    private float m_lastPressed;
+    public float margen = 0.5f;
 
     public enum Control
     {
@@ -18,23 +20,33 @@ public class Panel : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        m_lastPressed = Time.time;
+        Invoke("startGravityCheck", margen);
     }
 
     private void FixedUpdate()
     {
-        if (jugadorEnRango && Input.GetKey(KeyCode.Space))
+        if (jugadorEnRango && Input.GetKeyDown(KeyCode.Space))
         {
-            switch (control)
+            GravityCheck();
+            if (m_lastPressed + margen <= Time.time)
             {
-                case Control.GRAVEDAD:
-                    if (zeroGravity)
-                        GameManager.instance.ZeroGravity();
-                    else
-                        GameManager.instance.ResetGravity();
-                    zeroGravity = !zeroGravity;
-                    break;
+                m_lastPressed = Time.time;
+                switch (control)
+                {
+                    case Control.GRAVEDAD:
+                        if (!zeroGravity)
+                            GameManager.instance.ZeroGravity();
+                        else
+                            GameManager.instance.ResetGravity();
+                        zeroGravity = !zeroGravity;
+                        break;
+                    case Control.OXIGENO:
+                        GameManager.instance.SwitchOxygen();
+                        break;
+                }
             }
+
         }
     }
 
@@ -58,5 +70,10 @@ public class Panel : MonoBehaviour
             jugadorEnRango = false;
         }
 
+    }
+
+    private void GravityCheck()
+    {
+        zeroGravity = GameManager.instance.currentGravity.gravedadsala == Vector2.zero;
     }
 }

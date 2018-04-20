@@ -11,8 +11,8 @@ public class GuardaGravedad : MonoBehaviour {
 
 	public Vector2 gravedadsala;
 	public Vector2 gravedadinicial;
-	public bool oxigeno;//guarda la direccion de la gravedad propia de la sala
-	private DireccionGravedad direccion;
+    public bool oxigeno;
+	private DireccionGravedad direccion; //guarda la direccion de la gravedad propia de la sala
 	bool jugadorPresente = false;//determina si el jugador está en esta sala
 
 	int s;
