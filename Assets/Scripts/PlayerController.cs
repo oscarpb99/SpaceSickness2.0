@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     Animator animator;
     SpriteRenderer spriteRenderer;
     Quaternion currentRotation;
+	public int fuerzapropulsion = 50;
+	public float limitspeed = 10f;//límite de velocidad de propulsión en grav0
 
 
 
@@ -54,10 +56,18 @@ public class PlayerController : MonoBehaviour
 		if (direccionActual == DireccionGravedad.Gravedad0) {
 			float x = Input.GetAxis ("Horizontal");
 			float y = Input.GetAxis ("Vertical");
-			if (x != 0 || y != 0)
-				GameManager.instance.PropulsaOxigeno ();
+			int propulsionx = 0;
+			int propulsiony = 0;
 
-			transform.Translate (new Vector3 (x * speed * Time.deltaTime, y * speed * Time.deltaTime, 0));
+			if (rb.velocity.x > -limitspeed && rb.velocity.x < limitspeed || rb.velocity.x <= -limitspeed && x>0 || rb.velocity.x >= limitspeed && x<0)//permitir la propulsión en el eje x si no se pasa del limite de velocidad
+				propulsionx = 1;
+			
+			if (rb.velocity.y > -limitspeed && rb.velocity.y < limitspeed || rb.velocity.y <= -limitspeed && y > 0 || rb.velocity.y >= limitspeed && y < 0)////permitir la propulsión en el eje y si no se pasa del limite de velocidad
+				propulsiony = 1;
+
+			rb.AddForce (new Vector2 (x* propulsionx * fuerzapropulsion * Time.deltaTime, y* propulsiony * fuerzapropulsion * Time.deltaTime), ForceMode2D.Impulse);
+
+			GameManager.instance.PropulsaOxigeno ();
 		} 
 		else {
 			if (direccionActual == DireccionGravedad.Derecha)

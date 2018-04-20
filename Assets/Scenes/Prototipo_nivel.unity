@@ -165,12 +165,12 @@ Prefab:
     - target: {fileID: 61509883234602220, guid: 6873cfa3fa54f9d47aeeb8270dac9bcc,
         type: 2}
       propertyPath: m_Offset.x
-      value: -0.12589437
+      value: -0.09537716
       objectReference: {fileID: 0}
     - target: {fileID: 61509883234602220, guid: 6873cfa3fa54f9d47aeeb8270dac9bcc,
         type: 2}
       propertyPath: m_Size.x
-      value: 0.6392033
+      value: 0.57816875
       objectReference: {fileID: 0}
     - target: {fileID: 1758861534639128, guid: 6873cfa3fa54f9d47aeeb8270dac9bcc, type: 2}
       propertyPath: m_Name
@@ -376,6 +376,10 @@ CompositeCollider2D:
       - X: 205039696
         Y: -49960316
       - X: 205039696
+        Y: -10039682
+      - X: 225039696
+        Y: -10039682
+      - X: 225039696
         Y: -4960317
       - X: 189960304
         Y: -4960317
@@ -838,7 +842,9 @@ CompositeCollider2D:
       - {x: 24.49603, y: 0.0039682}
       - {x: 24.49603, y: -4.9960318}
       - {x: 20.50397, y: -4.9960318}
-      - {x: 20.50397, y: -0.4960317}
+      - {x: 20.50397, y: -1.0039682}
+      - {x: 22.50397, y: -1.0039682}
+      - {x: 22.50397, y: -0.4960317}
       - {x: 18.99603, y: -0.4960317}
       - {x: 18.99603, y: -4.9960318}
       - {x: -4.9960318, y: -4.9960318}
@@ -16770,6 +16776,42 @@ Tilemap:
       m_TileFlags: 1
       m_ColliderType: 1
   - first: {x: 40, y: -2, z: 0}
+    second:
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 41, y: -2, z: 0}
+    second:
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 42, y: -2, z: 0}
+    second:
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 43, y: -2, z: 0}
+    second:
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 44, y: -2, z: 0}
     second:
       m_TileIndex: 2
       m_TileSpriteIndex: 2
@@ -32885,17 +32927,17 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 3529
+  - m_RefCount: 3533
     m_Data: {fileID: 11400000, guid: 50a7f63db69022b4780c2d1d87012360, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 3529
+  - m_RefCount: 3533
     m_Data: {fileID: 21300066, guid: 92db0c9e3d0b6b444b102307a48f612e, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 3529
+  - m_RefCount: 3533
     m_Data:
       e00: 1
       e01: 0
@@ -32914,7 +32956,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 3529
+  - m_RefCount: 3533
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -36137,7 +36179,7 @@ Prefab:
     - target: {fileID: 114475009803566514, guid: 6dcff53cd28cd5d41827dc649dc74df9,
         type: 2}
       propertyPath: gravedadinicial.y
-      value: -20
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6dcff53cd28cd5d41827dc649dc74df9, type: 2}

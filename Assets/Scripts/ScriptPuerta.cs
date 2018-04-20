@@ -67,7 +67,7 @@ public class ScriptPuerta : MonoBehaviour {
 
     void Abrir()
     {
-        if (!abierta && Input.GetKey(KeyCode.Space))
+        if (!abierta && Input.GetKeyDown(KeyCode.Space))
         {
             if (jugadorEnRango)
             {
