@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject camera;
 	public GameObject player;
     public IndicadorGravedad indicador;
+	public float gastoxigen=0.01f;
 	GameObject camerapos;
 	GameObject ultimasala=null;
 
@@ -39,10 +40,10 @@ public class GameManager : MonoBehaviour {
 	}
 	void FixedUpdate() {
 		if (salaactual != null&& oxigenbar!=null) {
-			if (!salaactual.GetComponent<GuardaGravedad> ().oxigeno)
+			if (!salaactual.GetComponent<GuardaGravedad> ().oxigeno && salaactual.GetComponent<GuardaGravedad>().GetDireccion()!=DireccionGravedad.Gravedad0)
 				RestaOxigeno ();
-			else
-				AumentaOxigeno ();
+			else if(salaactual.GetComponent<GuardaGravedad>().oxigeno)
+				AumentaOxigeno (1);
 		
 			if (oxigeno > 0)
 				oxigenbar.GetComponent<RectTransform> ().localScale = new Vector3 (oxigeno / maxoxigeno, 1f, 1f);
@@ -63,11 +64,14 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void PropulsaOxigeno(){
-		oxigeno = oxigeno - maxoxigeno * 0.1f;
+		oxigeno = oxigeno - maxoxigeno * gastoxigen;
 	}
 
-	void AumentaOxigeno(){
-		oxigeno = maxoxigeno;
+	public void AumentaOxigeno(float cantidad){
+		if (oxigeno + cantidad * maxoxigeno > maxoxigeno)
+			oxigeno = maxoxigeno;
+		else
+			oxigeno = oxigeno + cantidad * maxoxigeno;
 	}
 
 	public void ReiniciaSala(){

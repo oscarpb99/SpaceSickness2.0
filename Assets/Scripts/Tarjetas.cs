@@ -7,13 +7,14 @@ public enum IdTarjeta
     NO_TARJETA = 0,
     ROJA = 1,
 	AZUL = 2,
+	VIOLETA=3,
 }
 
 public class Tarjetas : MonoBehaviour {
 
 
     public static Tarjetas instance = null;
-    private const uint numTarjetas = 2;
+    private const uint numTarjetas = 3;
     private bool[] estadoTarjetas = new bool[numTarjetas];
 
     void Awake()

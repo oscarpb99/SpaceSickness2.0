@@ -38,8 +38,9 @@ public class PlayerController : MonoBehaviour
         if (controlmovimiento)
             Movimiento();
 
-        if (Mathf.Abs(rb.velocity.x) <= 0.3f && Mathf.Abs(rb.velocity.y) <= 0.3f)
+       /* if (Mathf.Abs(rb.velocity.x) <= 0.3f && Mathf.Abs(rb.velocity.y) <= 0.3f)
             rb.velocity = new Vector2(0, 0);
+            */
 
         if (Input.GetKey(KeyCode.R))
         {
@@ -54,21 +55,33 @@ public class PlayerController : MonoBehaviour
     {
 		DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
 		if (direccionActual == DireccionGravedad.Gravedad0) {
-			float x = Input.GetAxis ("Horizontal");
-			float y = Input.GetAxis ("Vertical");
-			int propulsionx = 0;
-			int propulsiony = 0;
+				float x = Input.GetAxis ("Horizontal");
+				float y = Input.GetAxis ("Vertical");
 
-			if (rb.velocity.x > -limitspeed && rb.velocity.x < limitspeed || rb.velocity.x <= -limitspeed && x>0 || rb.velocity.x >= limitspeed && x<0)//permitir la propulsión en el eje x si no se pasa del limite de velocidad
+				if (x > 0)
+					x = 1;
+				else if (x < 0)
+					x = -1;
+				if (y > 0)
+					y = 1;
+				else if (y < 0)
+					y = -1;
+			
+				int propulsionx = 0;
+				int propulsiony = 0;
+
+				if (rb.velocity.x > -limitspeed && rb.velocity.x < limitspeed || rb.velocity.x <= -limitspeed && x > 0 || rb.velocity.x >= limitspeed && x < 0)//permitir la propulsión en el eje x si no se pasa del limite de velocidad
 				propulsionx = 1;
 			
-			if (rb.velocity.y > -limitspeed && rb.velocity.y < limitspeed || rb.velocity.y <= -limitspeed && y > 0 || rb.velocity.y >= limitspeed && y < 0)////permitir la propulsión en el eje y si no se pasa del limite de velocidad
+				if (rb.velocity.y > -limitspeed && rb.velocity.y < limitspeed || rb.velocity.y <= -limitspeed && y > 0 || rb.velocity.y >= limitspeed && y < 0)////permitir la propulsión en el eje y si no se pasa del limite de velocidad
 				propulsiony = 1;
 
-			rb.AddForce (new Vector2 (x* propulsionx * fuerzapropulsion * Time.deltaTime, y* propulsiony * fuerzapropulsion * Time.deltaTime), ForceMode2D.Impulse);
+				rb.AddForce (new Vector2 (x * propulsionx * fuerzapropulsion * Time.deltaTime, y * propulsiony * fuerzapropulsion * Time.deltaTime), ForceMode2D.Impulse);
 
-			GameManager.instance.PropulsaOxigeno ();
-		} 
+				if (propulsionx == 1 && x != 0 || propulsiony == 1 && y != 0)
+					GameManager.instance.PropulsaOxigeno ();
+			}
+
 		else {
 			if (direccionActual == DireccionGravedad.Derecha)
 				transform.Translate (new Vector3 (Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0, 0));

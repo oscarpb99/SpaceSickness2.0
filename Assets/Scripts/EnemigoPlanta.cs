@@ -23,4 +23,8 @@ public class EnemigoPlanta : MonoBehaviour {
             col.gameObject.GetComponent<PlayerController>().Die();
         }
 	}
+
+	public GameObject GetSala(){
+		return sala;
+	}
 }
