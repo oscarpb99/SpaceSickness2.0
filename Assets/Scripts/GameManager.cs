@@ -75,7 +75,8 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void ReiniciaSala(){
-		salaactual.GetComponent<GuardaGravedad> ().gravedadsala = salaactual.GetComponent<GuardaGravedad> ().gravedadinicial;
+		salaactual.GetComponent<GuardaGravedad> ().ResetGravity();
+		salaactual.GetComponent<GuardaGravedad> ().ResetOxigeno ();
 		int i = 0;
 		GameObject[]objetosala=salaactual.GetComponent<GuardaGravedad>().GetObjetos();
 		while (i<objetosala.Length && objetosala [i] != null) {

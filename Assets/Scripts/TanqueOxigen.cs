@@ -9,7 +9,6 @@ public class TanqueOxigen : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.tag == "player") {
 			GameManager.instance.AumentaOxigeno (prAumentooxigen);
-			Destroy (this.gameObject);
 		}
 	}
 }

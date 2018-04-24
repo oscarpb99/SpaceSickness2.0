@@ -14,6 +14,7 @@ public class GuardaGravedad : MonoBehaviour {
     public bool oxigeno;
 	private DireccionGravedad direccion; //guarda la direccion de la gravedad propia de la sala
 	bool jugadorPresente = false;//determina si el jugador está en esta sala
+	bool oxigenoinicial;
 
 	int s;
 
@@ -23,6 +24,7 @@ public class GuardaGravedad : MonoBehaviour {
 		}
 
 		s = 0;
+		oxigenoinicial = oxigeno;
 	}
 
     void Update(){
@@ -48,9 +50,10 @@ public class GuardaGravedad : MonoBehaviour {
         if (col.gameObject.tag == "player")
         {
 			GameObject ultimasala=GameManager.instance.GetUltimaSala ();
+			GameManager.instance.salaactual = this.gameObject;
 
 			if(ultimasala==null||(ultimasala!=this.gameObject)){
-				gravedadsala=gravedadinicial;
+				GameManager.instance.ReiniciaSala ();
 				GameManager.instance.SetUltimaSala (this.gameObject);
 			}
 
@@ -97,4 +100,8 @@ public class GuardaGravedad : MonoBehaviour {
     {
         gravedadsala = gravedadinicial;
     }
+
+	public void ResetOxigeno(){
+		oxigeno=oxigenoinicial;
+	}
 }
