@@ -13,6 +13,8 @@ public class CambioGravedad : MonoBehaviour {
 
 	bool cayendo=false; //declara si el personaje está cayendo
 	public GameObject sala;
+	public AudioClip gravedad;
+	public float volumen = 1.0f;
 
 
 	void Start(){
@@ -42,14 +44,26 @@ public class CambioGravedad : MonoBehaviour {
 
 	void CambiarGravedad(){
 		 //cambia la variable de estado de gravedad en la sala actual
-		if (Input.GetKey (KeyCode.UpArrow) && gravedadArriba) sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (0f, 20f);
+		if (Input.GetKey (KeyCode.UpArrow) && gravedadArriba) {
+			sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (0f, 20f);
+			AudioSource.PlayClipAtPoint (gravedad, this.gameObject.transform.position, volumen);
+		}
 		
-		if (Input.GetKey (KeyCode.DownArrow) && gravedadAbajo) sala.gameObject.GetComponent<GuardaGravedad>().gravedadsala = new Vector2 (0f, -20f);
+		if (Input.GetKey (KeyCode.DownArrow) && gravedadAbajo) {
+			sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (0f, -20f);
+			AudioSource.PlayClipAtPoint (gravedad, this.gameObject.transform.position, volumen);
+		}
 		
-		if (Input.GetKey (KeyCode.RightArrow) && gravedadDerecha) sala.gameObject.GetComponent<GuardaGravedad>().gravedadsala = new Vector2 (20f, 0f);
+		if (Input.GetKey (KeyCode.RightArrow) && gravedadDerecha) {
+			sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (20f, 0f);
+			AudioSource.PlayClipAtPoint (gravedad, this.gameObject.transform.position, volumen);
+		}
 		
-		if (Input.GetKey (KeyCode.LeftArrow) && gravedadIzquierda) sala.gameObject.GetComponent<GuardaGravedad>().gravedadsala = new Vector2 (-20f, 0f);
-		
+		if (Input.GetKey (KeyCode.LeftArrow) && gravedadIzquierda) {
+			sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (-20f, 0f);
+			AudioSource.PlayClipAtPoint (gravedad, this.gameObject.transform.position, volumen);
+		}
+
 	}
 
 	void OnTriggerEnter2D (Collider2D room){

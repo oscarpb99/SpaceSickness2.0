@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     Quaternion currentRotation;
 	public int fuerzapropulsion = 50;
 	public float limitspeed = 10f;//límite de velocidad de propulsión en grav0
+	public AudioClip pasos;
+	public float volumen=1.0f;
 
 
 
@@ -84,13 +86,24 @@ public class PlayerController : MonoBehaviour
 
 		else {
 			if (direccionActual == DireccionGravedad.Derecha)
+			{
 				transform.Translate (new Vector3 (Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0, 0));
-			else if (direccionActual == DireccionGravedad.Izquierda)
+
+			} 
+			else if (direccionActual == DireccionGravedad.Izquierda) 
+			{
 				transform.Translate (new Vector3 (-Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0, 0));
+
+			}
 			else if (direccionActual == DireccionGravedad.Abajo)
+			{
 				transform.Translate (new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0, 0));
+
+		}
 			else
+			{
 				transform.Translate (new Vector3 (-Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0, 0));
+			}
 		}
     }
 
@@ -120,22 +133,30 @@ public class PlayerController : MonoBehaviour
         switch (direccionActual) // flip en las 4 direcciones segun la gravedad
         {
 		case DireccionGravedad.Arriba:
-                spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 180f);
+			spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 180f);
 
-                if (Input.GetKeyDown(KeyCode.A))
-                    spriteRenderer.flipX = false;
-                else if (Input.GetKeyDown(KeyCode.D))
-                    spriteRenderer.flipX = true;
+			if (Input.GetKeyDown (KeyCode.A)) {
+				spriteRenderer.flipX = false;
+				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+			} 
+			else if (Input.GetKeyDown (KeyCode.D)) {
+				spriteRenderer.flipX = true;
+				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+			}
 
                 break;
 
-            case DireccionGravedad.Abajo:
-                spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 0);
+		case DireccionGravedad.Abajo:
+			spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 0);
 
-                if (Input.GetKeyDown(KeyCode.A))
-                    spriteRenderer.flipX = true;
-                else if (Input.GetKeyDown(KeyCode.D))
-                    spriteRenderer.flipX = false;
+			if (Input.GetKeyDown (KeyCode.A)) {
+				spriteRenderer.flipX = true;
+				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+			}
+			else if (Input.GetKeyDown (KeyCode.D)) {
+				spriteRenderer.flipX = false;
+				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+			}
 
                 break;
 
@@ -149,29 +170,37 @@ public class PlayerController : MonoBehaviour
 				
 				break;
 
-            case DireccionGravedad.Izquierda:
-                if (currentRotation.z == 0)
-                    spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 90f);
-                else
-                    spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 270f);
+		case DireccionGravedad.Izquierda:
+			if (currentRotation.z == 0)
+				spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 90f);
+			else
+				spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 270f);
 
-                if (Input.GetKeyDown(KeyCode.W))
-                    spriteRenderer.flipX = true;
-                else if (Input.GetKeyDown(KeyCode.S))
-                    spriteRenderer.flipX = false;
+			if (Input.GetKeyDown (KeyCode.W)) {
+				spriteRenderer.flipX = true;
+				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+			}
+			else if (Input.GetKeyDown (KeyCode.S)) {
+				spriteRenderer.flipX = false;
+				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+			}
 
                 break;
 
-            case DireccionGravedad.Derecha:
-                if (currentRotation.z == 0)
-                    spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 270f);
-                else
-                    spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 90f);
+		case DireccionGravedad.Derecha:
+			if (currentRotation.z == 0)
+				spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 270f);
+			else
+				spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 90f);
 
-                if (Input.GetKeyDown(KeyCode.W))
-                    spriteRenderer.flipX = false;
-                else if (Input.GetKeyDown(KeyCode.S))
-                    spriteRenderer.flipX = true;
+			if (Input.GetKeyDown (KeyCode.W)) {
+				spriteRenderer.flipX = false;
+				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+			} 
+			else if (Input.GetKeyDown (KeyCode.S)) {
+				spriteRenderer.flipX = true;
+				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+			}
 
                 break;
         }

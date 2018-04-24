@@ -7,6 +7,10 @@ public class Pausa : MonoBehaviour {
 	bool pause=false;
 	public GameObject PauseMenu;
 	public PlayerController player;
+	PlayerController x;
+	void Start(){
+		x = player.GetComponent<PlayerController> ();
+	}
 
 	// Update is called once per frame
 	void Update () {
@@ -18,14 +22,14 @@ public class Pausa : MonoBehaviour {
 		if (pause) {
 			PauseMenu.SetActive (true);
 			Time.timeScale = 0;
-			player.enabled = false;
+			x.enabled = false;
 
 
 
 		} else {
 			PauseMenu.SetActive (false);
 			Time.timeScale = 1;
-			player.enabled=true;
+			x.enabled=true;
 		}
 		
 	}
@@ -33,11 +37,11 @@ public class Pausa : MonoBehaviour {
 		PauseMenu.SetActive (false);
 		pause = false;
 		Time.timeScale = 1;
-		player.enabled = true;
+		x.enabled = true;
 		}
 	public void QuitGame(){
 		SceneManager.LoadScene("Menu");
 		pause = false;
-		player.enabled = true;
+		x.enabled = true;
 	}
 }
