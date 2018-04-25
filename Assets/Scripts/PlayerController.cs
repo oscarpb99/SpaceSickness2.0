@@ -135,11 +135,11 @@ public class PlayerController : MonoBehaviour
 		case DireccionGravedad.Arriba:
 			spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 180f);
 
-			if (Input.GetKeyDown (KeyCode.A)) {
+			if (Input.GetKey (KeyCode.A)) {
 				spriteRenderer.flipX = false;
 				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			} 
-			else if (Input.GetKeyDown (KeyCode.D)) {
+			else if (Input.GetKey (KeyCode.D)) {
 				spriteRenderer.flipX = true;
 				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			}
@@ -149,11 +149,11 @@ public class PlayerController : MonoBehaviour
 		case DireccionGravedad.Abajo:
 			spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 0);
 
-			if (Input.GetKeyDown (KeyCode.A)) {
+			if (Input.GetKey (KeyCode.A)) {
 				spriteRenderer.flipX = true;
 				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			}
-			else if (Input.GetKeyDown (KeyCode.D)) {
+			else if (Input.GetKey (KeyCode.D)) {
 				spriteRenderer.flipX = false;
 				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			}
@@ -163,9 +163,9 @@ public class PlayerController : MonoBehaviour
 			case DireccionGravedad.Gravedad0:
 				spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 0);
 
-				if (Input.GetKeyDown(KeyCode.A))
+				if (Input.GetKey(KeyCode.A))
 					spriteRenderer.flipX = true;
-				else if (Input.GetKeyDown(KeyCode.D))
+				else if (Input.GetKey(KeyCode.D))
 					spriteRenderer.flipX = false;
 				
 				break;
@@ -176,11 +176,11 @@ public class PlayerController : MonoBehaviour
 			else
 				spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 270f);
 
-			if (Input.GetKeyDown (KeyCode.W)) {
+			if (Input.GetKey (KeyCode.W)) {
 				spriteRenderer.flipX = true;
 				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			}
-			else if (Input.GetKeyDown (KeyCode.S)) {
+			else if (Input.GetKey (KeyCode.S)) {
 				spriteRenderer.flipX = false;
 				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			}
@@ -193,11 +193,11 @@ public class PlayerController : MonoBehaviour
 			else
 				spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 90f);
 
-			if (Input.GetKeyDown (KeyCode.W)) {
+			if (Input.GetKey (KeyCode.W)) {
 				spriteRenderer.flipX = false;
 				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			} 
-			else if (Input.GetKeyDown (KeyCode.S)) {
+			else if (Input.GetKey (KeyCode.S)) {
 				spriteRenderer.flipX = true;
 				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			}
