@@ -141,11 +141,11 @@ public class PlayerController : MonoBehaviour
 			else if (Input.GetKey (KeyCode.D)) {
 				spriteRenderer.flipX = true;
 			}
-			if (Input.GetKeyDown (KeyCode.A) || Input.GetKeyDown (KeyCode.D)) {
+			if ((Input.GetKeyDown (KeyCode.A) || Input.GetKeyDown (KeyCode.D))&&controlmovimiento) {
 				pasos.loop = true;
 				pasos.Play ();
 			}
-			else if(Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D)){
+			else if(Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D)||!controlmovimiento){
 				pasos.Stop ();
 			}
 
@@ -161,24 +161,23 @@ public class PlayerController : MonoBehaviour
 			else if (Input.GetKey (KeyCode.D)) {
 				spriteRenderer.flipX = false;
 			}
-			if (Input.GetKeyDown (KeyCode.A) || Input.GetKeyDown (KeyCode.D)) {
+			if ((Input.GetKeyDown (KeyCode.A) || Input.GetKeyDown (KeyCode.D))&&controlmovimiento) {
 				pasos.loop = true;
 				pasos.Play ();
 			}
-			else if(Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D)){
+			else if(Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D)||!controlmovimiento){
 				pasos.Stop ();
 			}
 
                 break;
 
-			case DireccionGravedad.Gravedad0:
-				spriteRenderer.transform.rotation = Quaternion.Euler(0, 0, 0);
-
-				if (Input.GetKey(KeyCode.A))
-					spriteRenderer.flipX = true;
-				else if (Input.GetKey(KeyCode.D))
-					spriteRenderer.flipX = false;
-				
+		case DireccionGravedad.Gravedad0:
+			spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 0);
+			pasos.Stop ();
+			if (Input.GetKey(KeyCode.A))
+				spriteRenderer.flipX = true;
+			else if (Input.GetKey(KeyCode.D))
+				spriteRenderer.flipX = false;
 				break;
 
 		case DireccionGravedad.Izquierda:
@@ -193,11 +192,11 @@ public class PlayerController : MonoBehaviour
 				spriteRenderer.flipX = false;
 
 			}
-			if (Input.GetKeyDown (KeyCode.W) || Input.GetKeyDown (KeyCode.S)) {
+			if ((Input.GetKeyDown (KeyCode.W) || Input.GetKeyDown (KeyCode.S)) &&controlmovimiento) {
 				pasos.loop = true;
 				pasos.Play ();
 			} 
-			else if(Input.GetKeyUp(KeyCode.W)||Input.GetKeyUp(KeyCode.S)){
+			else if(Input.GetKeyUp(KeyCode.W)||Input.GetKeyUp(KeyCode.S)||!controlmovimiento){
 				pasos.Stop ();
 			}
 
@@ -215,11 +214,11 @@ public class PlayerController : MonoBehaviour
 			else if (Input.GetKey (KeyCode.S)) {
 				spriteRenderer.flipX = true;
 			}
-			if (Input.GetKeyDown (KeyCode.W) || Input.GetKeyDown (KeyCode.S)) {
+			if ((Input.GetKeyDown (KeyCode.W) || Input.GetKeyDown (KeyCode.S))&&controlmovimiento) {
 				pasos.loop = true;
 				pasos.Play ();
 			}
-			else if(Input.GetKeyUp(KeyCode.W)||Input.GetKeyUp(KeyCode.S)){
+			else if(Input.GetKeyUp(KeyCode.W)||Input.GetKeyUp(KeyCode.S)||!controlmovimiento){
 				pasos.Stop ();
 			}
 

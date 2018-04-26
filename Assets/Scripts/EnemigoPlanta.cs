@@ -5,7 +5,11 @@ using UnityEngine;
 public class EnemigoPlanta : MonoBehaviour {
 	GameObject sala;
     public GameObject head;
+	Vector3 poshead;
 
+	void Start(){
+		poshead = head.transform.position;
+	}
 	// Update is called once per frame
 	void Update () {
 		if (sala != null) {
@@ -21,7 +25,12 @@ public class EnemigoPlanta : MonoBehaviour {
         {
             head.transform.position = col.gameObject.transform.position;
             col.gameObject.GetComponent<PlayerController>().Die();
+			Invoke ("DevolverCabeza", 0.5f);
         }
+	}
+
+	void DevolverCabeza(){
+		head.transform.position = poshead;
 	}
 
 	public GameObject GetSala(){
