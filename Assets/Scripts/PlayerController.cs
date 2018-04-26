@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     Quaternion currentRotation;
 	public int fuerzapropulsion = 50;
 	public float limitspeed = 10f;//límite de velocidad de propulsión en grav0
-	public AudioClip pasos;
+	public AudioSource pasos;
 	public float volumen=1.0f;
 
 
@@ -137,12 +137,18 @@ public class PlayerController : MonoBehaviour
 
 			if (Input.GetKey (KeyCode.A)) {
 				spriteRenderer.flipX = false;
-				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			} 
 			else if (Input.GetKey (KeyCode.D)) {
 				spriteRenderer.flipX = true;
-				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			}
+			if (Input.GetKeyDown (KeyCode.A) || Input.GetKeyDown (KeyCode.D)) {
+				pasos.loop = true;
+				pasos.Play ();
+			}
+			else if(Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D)){
+				pasos.Stop ();
+			}
+
 
                 break;
 
@@ -151,11 +157,16 @@ public class PlayerController : MonoBehaviour
 
 			if (Input.GetKey (KeyCode.A)) {
 				spriteRenderer.flipX = true;
-				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
-			}
+			} 
 			else if (Input.GetKey (KeyCode.D)) {
 				spriteRenderer.flipX = false;
-				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+			}
+			if (Input.GetKeyDown (KeyCode.A) || Input.GetKeyDown (KeyCode.D)) {
+				pasos.loop = true;
+				pasos.Play ();
+			}
+			else if(Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D)){
+				pasos.Stop ();
 			}
 
                 break;
@@ -178,11 +189,16 @@ public class PlayerController : MonoBehaviour
 
 			if (Input.GetKey (KeyCode.W)) {
 				spriteRenderer.flipX = true;
-				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
-			}
-			else if (Input.GetKey (KeyCode.S)) {
+			} else if (Input.GetKey (KeyCode.S)) {
 				spriteRenderer.flipX = false;
-				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+
+			}
+			if (Input.GetKeyDown (KeyCode.W) || Input.GetKeyDown (KeyCode.S)) {
+				pasos.loop = true;
+				pasos.Play ();
+			} 
+			else if(Input.GetKeyUp(KeyCode.W)||Input.GetKeyUp(KeyCode.S)){
+				pasos.Stop ();
 			}
 
                 break;
@@ -195,11 +211,16 @@ public class PlayerController : MonoBehaviour
 
 			if (Input.GetKey (KeyCode.W)) {
 				spriteRenderer.flipX = false;
-				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
 			} 
 			else if (Input.GetKey (KeyCode.S)) {
 				spriteRenderer.flipX = true;
-				AudioSource.PlayClipAtPoint (pasos, this.gameObject.transform.position, volumen);
+			}
+			if (Input.GetKeyDown (KeyCode.W) || Input.GetKeyDown (KeyCode.S)) {
+				pasos.loop = true;
+				pasos.Play ();
+			}
+			else if(Input.GetKeyUp(KeyCode.W)||Input.GetKeyUp(KeyCode.S)){
+				pasos.Stop ();
 			}
 
                 break;
