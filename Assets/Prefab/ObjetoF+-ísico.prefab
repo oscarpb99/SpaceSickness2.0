@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114089287262832196}
   - component: {fileID: 212036611268275158}
   m_Layer: 0
-  m_Name: "ObjetoF+\xA1sico"
+  m_Name: "ObjetoF+-\xEDsico"
   m_TagString: obj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

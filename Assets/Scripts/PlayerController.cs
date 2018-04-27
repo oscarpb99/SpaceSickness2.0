@@ -31,7 +31,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Falling();
+        //GameManager.instance.SetCurrentGravity(salaactual.GetComponent<GuardaGravedad>());
+
 
         if (GameManager.instance.oxigeno <= 0)
             Die();
@@ -86,24 +87,23 @@ public class PlayerController : MonoBehaviour
 		else {
 			if (direccionActual == DireccionGravedad.Derecha)
 			{
-                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Input.GetAxis("Vertical") * speed);
+				transform.Translate (new Vector3 (Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0, 0));
 
 			} 
-			else if (direccionActual == DireccionGravedad.Izquierda)
-            {
-                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Input.GetAxis("Vertical") * speed);
+			else if (direccionActual == DireccionGravedad.Izquierda) 
+			{
+				transform.Translate (new Vector3 (-Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0, 0));
 
-            }
+			}
 			else if (direccionActual == DireccionGravedad.Abajo)
 			{
-                 gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * speed, 0);
+				transform.Translate (new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0, 0));
 
 		}
 			else
 			{
-
-                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * speed, 0);
-            }
+				transform.Translate (new Vector3 (-Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0, 0));
+			}
 		}
     }
 
@@ -116,23 +116,6 @@ public class PlayerController : MonoBehaviour
             GameManager.instance.ReiniciaSala();
         }
         Destroy(gameObject);
-    }
-
-    void Falling()
-    {
-        DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
-        if (direccionActual == DireccionGravedad.Abajo && rb.velocity.y < 0 || 
-            direccionActual == DireccionGravedad.Arriba && rb.velocity.y > 0)
-        {
-            rb.velocity = new Vector2(0, rb.velocity.y);
-        }
-        if(direccionActual == DireccionGravedad.Izquierda && rb.velocity.x < 0 ||
-            direccionActual == DireccionGravedad.Derecha && rb.velocity.x > 0)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, 0);
-        }
-
-
     }
 
     public void SpriteFlip()
