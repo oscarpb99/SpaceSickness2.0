@@ -9,7 +9,6 @@ public class Pausa : MonoBehaviour {
 	public PlayerController player;
 	PlayerController x;
 	void Start(){
-		x = player.GetComponent<PlayerController> ();
 	}
 
 	// Update is called once per frame
@@ -22,14 +21,12 @@ public class Pausa : MonoBehaviour {
 		if (pause) {
 			PauseMenu.SetActive (true);
 			Time.timeScale = 0;
-			x.enabled = false;
 
 
 
 		} else {
 			PauseMenu.SetActive (false);
 			Time.timeScale = 1;
-			x.enabled=true;
 		}
 		
 	}
@@ -37,11 +34,9 @@ public class Pausa : MonoBehaviour {
 		PauseMenu.SetActive (false);
 		pause = false;
 		Time.timeScale = 1;
-		x.enabled = true;
 		}
 	public void QuitGame(){
 		SceneManager.LoadScene("Menu");
 		pause = false;
-		x.enabled = true;
 	}
 }

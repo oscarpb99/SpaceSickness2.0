@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 2f;
-    public bool controlmovimiento = false;
-    Rigidbody2D rb;
-    public Transform spawn;
-    public GameObject playerprefab;
-    Animator animator;
-    SpriteRenderer spriteRenderer;
-    Quaternion currentRotation;
+	public float speed = 2f;
+	public bool controlmovimiento = false;
+	Rigidbody2D rb;
+	public Transform spawn;
+	public GameObject playerprefab;
+	Animator animator;
+	bool cayendo = true;
+	SpriteRenderer spriteRenderer;
+	Quaternion currentRotation;
 	public int fuerzapropulsion = 50;
 	public float limitspeed = 10f;//límite de velocidad de propulsión en grav0
 	public AudioSource pasos;
@@ -20,118 +21,145 @@ public class PlayerController : MonoBehaviour
 
 
 
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        GameManager.instance.oxigeno = GameManager.instance.maxoxigeno;
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        animator = GetComponentInChildren<Animator>();
-    }
+	void Start()
+	{
+		rb = GetComponent<Rigidbody2D>();
+		GameManager.instance.oxigeno = GameManager.instance.maxoxigeno;
+		spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+		animator = GetComponentInChildren<Animator>();
+		rb.velocity = new Vector2(0, -0.1f);
+	}
 
 
-    void Update()
-    {
-        //GameManager.instance.SetCurrentGravity(salaactual.GetComponent<GuardaGravedad>());
+	void Update()
+	{
 
+		if (GameManager.instance.oxigeno <= 0)
+			Die();
 
-        if (GameManager.instance.oxigeno <= 0)
-            Die();
+		if (controlmovimiento)
+			Movimiento();
 
-        if (controlmovimiento)
-            Movimiento();
-
-       /* if (Mathf.Abs(rb.velocity.x) <= 0.3f && Mathf.Abs(rb.velocity.y) <= 0.3f)
+		/* if (Mathf.Abs(rb.velocity.x) <= 0.3f && Mathf.Abs(rb.velocity.y) <= 0.3f)
             rb.velocity = new Vector2(0, 0);
             */
 
-        if (Input.GetKey(KeyCode.R))
-        {
-            gameObject.transform.position = spawn.position;
-            GameManager.instance.ReiniciaSala();
-        }
+		if (Input.GetKey(KeyCode.R))
+		{
+			gameObject.transform.position = spawn.position;
+			GameManager.instance.ReiniciaSala();
+		}
 
-        SpriteFlip();
-    }
+		SpriteFlip();
+	}
 
-    void Movimiento()
-    {
+	void FixedUpdate(){
+		Falling();
+	}
+
+	void Movimiento()
+	{
 		DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
 		if (direccionActual == DireccionGravedad.Gravedad0) {
-				float x = Input.GetAxis ("Horizontal");
-				float y = Input.GetAxis ("Vertical");
+			float x = Input.GetAxis ("Horizontal");
+			float y = Input.GetAxis ("Vertical");
 
-				if (x > 0)
-					x = 1;
-				else if (x < 0)
-					x = -1;
-				if (y > 0)
-					y = 1;
-				else if (y < 0)
-					y = -1;
-			
-				int propulsionx = 0;
-				int propulsiony = 0;
+			if (x > 0)
+				x = 1;
+			else if (x < 0)
+				x = -1;
+			if (y > 0)
+				y = 1;
+			else if (y < 0)
+				y = -1;
 
-				if (rb.velocity.x > -limitspeed && rb.velocity.x < limitspeed || rb.velocity.x <= -limitspeed && x > 0 || rb.velocity.x >= limitspeed && x < 0)//permitir la propulsión en el eje x si no se pasa del limite de velocidad
+			int propulsionx = 0;
+			int propulsiony = 0;
+
+			if (rb.velocity.x > -limitspeed && rb.velocity.x < limitspeed || rb.velocity.x <= -limitspeed && x > 0 || rb.velocity.x >= limitspeed && x < 0)//permitir la propulsión en el eje x si no se pasa del limite de velocidad
 				propulsionx = 1;
-			
-				if (rb.velocity.y > -limitspeed && rb.velocity.y < limitspeed || rb.velocity.y <= -limitspeed && y > 0 || rb.velocity.y >= limitspeed && y < 0)////permitir la propulsión en el eje y si no se pasa del limite de velocidad
+
+			if (rb.velocity.y > -limitspeed && rb.velocity.y < limitspeed || rb.velocity.y <= -limitspeed && y > 0 || rb.velocity.y >= limitspeed && y < 0)////permitir la propulsión en el eje y si no se pasa del limite de velocidad
 				propulsiony = 1;
 
-				rb.AddForce (new Vector2 (x * propulsionx * fuerzapropulsion * Time.deltaTime, y * propulsiony * fuerzapropulsion * Time.deltaTime), ForceMode2D.Impulse);
+			rb.AddForce (new Vector2 (x * propulsionx * fuerzapropulsion * Time.deltaTime, y * propulsiony * fuerzapropulsion * Time.deltaTime), ForceMode2D.Impulse);
 
-				if (propulsionx == 1 && x != 0 || propulsiony == 1 && y != 0)
-					GameManager.instance.PropulsaOxigeno ();
-			}
+			if (propulsionx == 1 && x != 0 || propulsiony == 1 && y != 0)
+				GameManager.instance.PropulsaOxigeno ();
+		}
 
 		else {
 			if (direccionActual == DireccionGravedad.Derecha)
 			{
-				transform.Translate (new Vector3 (Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0, 0));
+				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Input.GetAxis("Vertical") * speed);
 
 			} 
-			else if (direccionActual == DireccionGravedad.Izquierda) 
+			else if (direccionActual == DireccionGravedad.Izquierda)
 			{
-				transform.Translate (new Vector3 (-Input.GetAxis ("Vertical") * speed * Time.deltaTime, 0, 0));
+				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Input.GetAxis("Vertical") * speed);
 
 			}
 			else if (direccionActual == DireccionGravedad.Abajo)
 			{
-				transform.Translate (new Vector3 (Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0, 0));
+				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * speed, 0);
 
-		}
+			}
 			else
 			{
-				transform.Translate (new Vector3 (-Input.GetAxis ("Horizontal") * speed * Time.deltaTime, 0, 0));
+
+				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * speed, 0);
 			}
 		}
-    }
+	}
 
-    public void Die()
-    {//método de muerte del jugador
-        if (spawn != null)
-        {
-            GameObject spawned = Instantiate(playerprefab);
-            spawned.transform.position = spawn.position;
-            GameManager.instance.ReiniciaSala();
-        }
-        Destroy(gameObject);
-    }
+	public void Die()
+	{//método de muerte del jugador
+		if (spawn != null)
+		{
+			GameObject spawned = Instantiate(playerprefab);
+			spawned.transform.position = spawn.position;
+			GameManager.instance.ReiniciaSala();
+		}
+		Destroy(gameObject);
+	}
 
-    public void SpriteFlip()
-    {
-        currentRotation = spriteRenderer.transform.rotation;
+	void Falling()
+	{
+		DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
+		if (direccionActual == DireccionGravedad.Abajo && rb.velocity.y < 0 || 
+			direccionActual == DireccionGravedad.Arriba && rb.velocity.y > 0)
+		{
+			rb.velocity = new Vector2(0, rb.velocity.y);
+			controlmovimiento = false;
+		}
+		else if(direccionActual == DireccionGravedad.Izquierda && rb.velocity.x < 0 ||
+			direccionActual == DireccionGravedad.Derecha && rb.velocity.x > 0)
+		{
+			rb.velocity = new Vector2(rb.velocity.x, 0);
+			controlmovimiento = false;
+		}
+		else
+			controlmovimiento = true;
+
+
+
+
+	}
+
+	public void SpriteFlip()
+	{
+		currentRotation = spriteRenderer.transform.rotation;
 		DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
 
-        if ((direccionActual == DireccionGravedad.Arriba || direccionActual == DireccionGravedad.Abajo) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
-            animator.SetBool("movimiento", true);
-        else if ((direccionActual == DireccionGravedad.Derecha || direccionActual == DireccionGravedad.Izquierda) && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S)))
-            animator.SetBool("movimiento", true);
-        else
-            animator.SetBool("movimiento", false);
+		if ((direccionActual == DireccionGravedad.Arriba || direccionActual == DireccionGravedad.Abajo) && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
+			animator.SetBool("movimiento", true);
+		else if ((direccionActual == DireccionGravedad.Derecha || direccionActual == DireccionGravedad.Izquierda) && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S)))
+			animator.SetBool("movimiento", true);
+		else
+			animator.SetBool("movimiento", false);
 
-        switch (direccionActual) // flip en las 4 direcciones segun la gravedad
-        {
+		switch (direccionActual) // flip en las 4 direcciones segun la gravedad
+		{
 		case DireccionGravedad.Arriba:
 			spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 180f);
 
@@ -150,7 +178,7 @@ public class PlayerController : MonoBehaviour
 			}
 
 
-                break;
+			break;
 
 		case DireccionGravedad.Abajo:
 			spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 0);
@@ -169,7 +197,7 @@ public class PlayerController : MonoBehaviour
 				pasos.Stop ();
 			}
 
-                break;
+			break;
 
 		case DireccionGravedad.Gravedad0:
 			spriteRenderer.transform.rotation = Quaternion.Euler (0, 0, 0);
@@ -178,7 +206,7 @@ public class PlayerController : MonoBehaviour
 				spriteRenderer.flipX = true;
 			else if (Input.GetKey(KeyCode.D))
 				spriteRenderer.flipX = false;
-				break;
+			break;
 
 		case DireccionGravedad.Izquierda:
 			if (currentRotation.z == 0)
@@ -200,7 +228,7 @@ public class PlayerController : MonoBehaviour
 				pasos.Stop ();
 			}
 
-                break;
+			break;
 
 		case DireccionGravedad.Derecha:
 			if (currentRotation.z == 0)
@@ -222,11 +250,11 @@ public class PlayerController : MonoBehaviour
 				pasos.Stop ();
 			}
 
-                break;
-        }
+			break;
+		}
 
-    }
-		
+	}
+
 }
 
 
