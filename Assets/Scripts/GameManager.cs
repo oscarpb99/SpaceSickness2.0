@@ -17,20 +17,14 @@ public class GameManager : MonoBehaviour {
 	public float oxigeno;//cantidad de oxigeno restante en el tanque del jugador
 	public float maxoxigeno=600;
 	public GameObject oxigenbar;
-	public GameObject camera;
-	public GameObject player;
     public IndicadorGravedad indicador;
 	public float gastoxigen=0.01f;
 	GameObject camerapos;
 	GameObject ultimasala=null;
 
+	void Awake(){
+		instance = this;
 
-	void Awake() {
-		if (instance == null) {
-			instance = this;
-			DontDestroyOnLoad (this.gameObject);
-		} else
-			Destroy (this.gameObject);
 	}
 		
 	// Update is called once per frame

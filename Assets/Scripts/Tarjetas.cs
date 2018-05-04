@@ -19,13 +19,8 @@ public class Tarjetas : MonoBehaviour {
 
     void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(this.gameObject);
-        }
-        else
-            Destroy(this.gameObject);
+         instance = this;
+        
     }
 
     // Use this for initialization

@@ -23,14 +23,17 @@ public class EnemigoPlanta : MonoBehaviour {
 			sala = col.gameObject;
         if (col.gameObject.tag == "player")
         {
+			gameObject.GetComponent<Rotacion> ().rotacion = new Vector3 (0, 0, 0);
+			poshead = head.transform.position;
             head.transform.position = col.gameObject.transform.position;
-            col.gameObject.GetComponent<PlayerController>().Die();
+			col.gameObject.GetComponent<PlayerController> ().Die ();
 			Invoke ("DevolverCabeza", 0.5f);
         }
 	}
 
 	void DevolverCabeza(){
 		head.transform.position = poshead;
+		gameObject.GetComponent<Rotacion> ().ReseteaRotacion ();
 	}
 
 	public GameObject GetSala(){
