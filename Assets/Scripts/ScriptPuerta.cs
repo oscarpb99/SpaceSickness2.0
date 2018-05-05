@@ -77,7 +77,7 @@ public class ScriptPuerta : MonoBehaviour {
         }
         else
         {
-            if (contador <= 0)
+			if (contador <= 0 && !jugadorEnRango)
                 abierta = false;
             else
                 contador--;
