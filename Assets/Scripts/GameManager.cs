@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour {
 	public float gastoxigen=0.01f;
 	GameObject camerapos;
 	GameObject ultimasala=null;
+    public Vector2 aux;
 
 
 	void Awake() {

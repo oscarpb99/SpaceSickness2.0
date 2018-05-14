@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-	public float speed = 2f;
+	public float speed = 1.5f;
 	public bool controlmovimiento = false;
 	Rigidbody2D rb;
 	public Transform spawn;
@@ -34,11 +34,8 @@ public class PlayerController : MonoBehaviour
 	void Update()
 	{
 
-		if (GameManager.instance.oxigeno <= 0)
+        if (GameManager.instance.oxigeno <= 0)
 			Die();
-
-		if (controlmovimiento)
-			Movimiento();
 
 		/* if (Mathf.Abs(rb.velocity.x) <= 0.3f && Mathf.Abs(rb.velocity.y) <= 0.3f)
             rb.velocity = new Vector2(0, 0);
@@ -53,25 +50,30 @@ public class PlayerController : MonoBehaviour
 		SpriteFlip();
 	}
 
-	void FixedUpdate(){
-		Falling();
-	}
+    private void FixedUpdate()
+    {
+        Falling();
 
-	void Movimiento()
+        if (controlmovimiento)
+            Movimiento();
+    }
+
+    void Movimiento()
 	{
-		DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
-		if (direccionActual == DireccionGravedad.Gravedad0) {
-			float x = Input.GetAxis ("Horizontal");
-			float y = Input.GetAxis ("Vertical");
+        float x = Input.GetAxis("Horizontal");
+        float y = Input.GetAxis("Vertical");
 
-			if (x > 0)
-				x = 1;
-			else if (x < 0)
-				x = -1;
-			if (y > 0)
-				y = 1;
-			else if (y < 0)
-				y = -1;
+        if (x > 0)
+            x = 1;
+        else if (x < 0)
+            x = -1;
+        if (y > 0)
+            y = 1;
+        else if (y < 0)
+            y = -1;
+        DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
+		if (direccionActual == DireccionGravedad.Gravedad0) {
+			
 
 			int propulsionx = 0;
 			int propulsiony = 0;
@@ -91,23 +93,22 @@ public class PlayerController : MonoBehaviour
 		else {
 			if (direccionActual == DireccionGravedad.Derecha)
 			{
-				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Input.GetAxis("Vertical") * speed);
+				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, y * speed);
 
 			} 
 			else if (direccionActual == DireccionGravedad.Izquierda)
 			{
-				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, Input.GetAxis("Vertical") * speed);
+				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, y * speed);
 
 			}
 			else if (direccionActual == DireccionGravedad.Abajo)
 			{
-				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * speed, 0);
-
+                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(x * speed, 0);
 			}
 			else
 			{
 
-				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * speed, 0);
+				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(x * speed, 0);
 			}
 		}
 	}
