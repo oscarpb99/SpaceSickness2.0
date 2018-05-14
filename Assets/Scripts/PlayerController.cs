@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-	public float speed = 1.5f;
+	public float speed = 0.9f;
 	public bool controlmovimiento = false;
 	Rigidbody2D rb;
 	public Transform spawn;
 	public GameObject playerprefab;
 	Animator animator;
-	bool cayendo = true;
 	SpriteRenderer spriteRenderer;
 	Quaternion currentRotation;
 	public int fuerzapropulsion = 50;
@@ -32,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
 
 	void Update()
-	{
+    {
 
         if (GameManager.instance.oxigeno <= 0)
 			Die();
@@ -52,6 +51,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        GameManager.instance.cayendo = !controlmovimiento;
         Falling();
 
         if (controlmovimiento)
@@ -129,22 +129,20 @@ public class PlayerController : MonoBehaviour
 		DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
 		if (direccionActual == DireccionGravedad.Abajo && rb.velocity.y < 0 || 
 			direccionActual == DireccionGravedad.Arriba && rb.velocity.y > 0)
-		{
-			rb.velocity = new Vector2(0, rb.velocity.y);
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
 			controlmovimiento = false;
 		}
 		else if(direccionActual == DireccionGravedad.Izquierda && rb.velocity.x < 0 ||
 			direccionActual == DireccionGravedad.Derecha && rb.velocity.x > 0)
-		{
-			rb.velocity = new Vector2(rb.velocity.x, 0);
+        {
+            rb.velocity = new Vector2(rb.velocity.x, 0);
 			controlmovimiento = false;
 		}
-		else
-			controlmovimiento = true;
-
-
-
-
+        else
+        {
+            controlmovimiento = true;
+        }
 	}
 
 	public void SpriteFlip()

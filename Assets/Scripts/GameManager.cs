@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject oxigenbar;
 	public GameObject camera;
 	public GameObject player;
+    public bool cayendo = true;
     public IndicadorGravedad indicador;
 	public float gastoxigen=0.01f;
 	GameObject camerapos;

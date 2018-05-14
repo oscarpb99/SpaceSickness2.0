@@ -3,55 +3,70 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CambioGravedad : MonoBehaviour {
-	Rigidbody2D rb;
-	public float margenmovimiento;//velocidad máxima a la que se puede cambiar la direccion de la gravedad. Valor positivo.
-	//Disponibilidad de cambio de gravedad en cada una de las 4 direcciones, dependen de las variables guardadas en cada sala.
-	bool gravedadArriba;
-	bool gravedadAbajo;
-	bool gravedadIzquierda;
-	bool gravedadDerecha;
+    Rigidbody2D rb;
+    public float margenmovimiento;//velocidad máxima a la que se puede cambiar la direccion de la gravedad. Valor positivo.
+                                  //Disponibilidad de cambio de gravedad en cada una de las 4 direcciones, dependen de las variables guardadas en cada sala.
+    bool gravedadArriba;
+    bool gravedadAbajo;
+    bool gravedadIzquierda;
+    bool gravedadDerecha;
 
-	public GameObject sala;
-	public AudioClip gravedad;
-	public float volumen = 1.0f;
-
-
-	void Start(){
-		rb = gameObject.GetComponent<Rigidbody2D> ();
-	}
+    public GameObject sala;
+    public AudioClip gravedad;
+    public float volumen = 1.0f;
 
 
-	void Update () {
+    void Start() {
+        rb = gameObject.GetComponent<Rigidbody2D>();
+    }
 
-		if (Mathf.Abs(rb.velocity.x) <= margenmovimiento && Mathf.Abs(rb.velocity.y)<= margenmovimiento)
-		{
-			CambiarGravedad ();
-		}
-		//GameManager.instance.grav = sala.GetComponent<GuardaGravedad> ().gravedadsala;//cambia el estado de gravedad que guarda el gamemanager por el de la sala actual
 
-		if (sala != null)
-			GameManager.instance.salaactual = sala;
-	}
+    void Update() {
 
-	void CambiarGravedad(){
+        if (Mathf.Abs(rb.velocity.x) <= margenmovimiento && Mathf.Abs(rb.velocity.y) <= margenmovimiento)
+        {
+            //			CambiarGravedad ();
+        }
+        //GameManager.instance.grav = sala.GetComponent<GuardaGravedad> ().gravedadsala;//cambia el estado de gravedad que guarda el gamemanager por el de la sala actual
+
+        if (sala != null)
+            GameManager.instance.salaactual = sala;
+    }
+
+    private void FixedUpdate() {
+
+        if (!GameManager.instance.cayendo)
+        {
+            CambiarGravedad();
+        }
+    }
+
+    void CambiarGravedad(){
 		 //cambia la variable de estado de gravedad en la sala actual
-		if (Input.GetKey (KeyCode.UpArrow) && gravedadArriba) {
+		if (Input.GetKeyDown (KeyCode.UpArrow) && gravedadArriba) {
+            rb.velocity = Vector2.zero;
 			sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (0f, 20f);
 			AudioSource.PlayClipAtPoint (gravedad, this.gameObject.transform.position, volumen);
 		}
 		
-		if (Input.GetKey (KeyCode.DownArrow) && gravedadAbajo) {
-			sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (0f, -20f);
+		if (Input.GetKeyDown (KeyCode.DownArrow) && gravedadAbajo)
+        {
+            rb.velocity = Vector2.zero;
+            sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (0f, -20f);
 			AudioSource.PlayClipAtPoint (gravedad, this.gameObject.transform.position, volumen);
 		}
 		
-		if (Input.GetKey (KeyCode.RightArrow) && gravedadDerecha) {
-			sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (20f, 0f);
+		if (Input.GetKeyDown(KeyCode.RightArrow) && gravedadDerecha)
+        {
+            rb.velocity = Vector2.zero;
+            sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (20f, 0f);
 			AudioSource.PlayClipAtPoint (gravedad, this.gameObject.transform.position, volumen);
 		}
 		
-		if (Input.GetKey (KeyCode.LeftArrow) && gravedadIzquierda) {
-			sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (-20f, 0f);
+		if (Input.GetKeyDown(KeyCode.LeftArrow) && gravedadIzquierda)
+        { 
+            rb.velocity = Vector2.zero;
+            sala.gameObject.GetComponent<GuardaGravedad> ().gravedadsala = new Vector2 (-20f, 0f);
 			AudioSource.PlayClipAtPoint (gravedad, this.gameObject.transform.position, volumen);
 		}
 
