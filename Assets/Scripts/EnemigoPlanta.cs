@@ -33,7 +33,7 @@ public class EnemigoPlanta : MonoBehaviour {
 
 	void DevolverCabeza(){
 		head.transform.position = poshead;
-		gameObject.GetComponent<Rotacion> ().ReseteaRotacion ();
+//		gameObject.GetComponent<Rotacion> ().ReseteaRotacion ();
 	}
 
 	public GameObject GetSala(){
