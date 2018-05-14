@@ -21,7 +21,6 @@ public class Panel : MonoBehaviour
     void Start()
     {
         m_lastPressed = Time.time;
-        Invoke("startGravityCheck", margen);
     }
 
     private void FixedUpdate()
