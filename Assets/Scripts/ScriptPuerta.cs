@@ -10,6 +10,8 @@ public class ScriptPuerta : MonoBehaviour {
 	public GameObject collider;
 	Animator anim;
     public IdTarjeta id;
+	public AudioSource puertaDesbloq;
+	public AudioSource puertaBloq;
 	
 	void Start(){
 		anim = GetComponent<Animator> ();
@@ -48,10 +50,12 @@ public class ScriptPuerta : MonoBehaviour {
 
 	void Desbloquear(){
 		bloqueada = false;
+		puertaDesbloq.Play ();
 	}
 
 	void Bloquear(){
 		bloqueada = true;
+		puertaBloq.Play();
 	}
 
 	void Animaciones(){
