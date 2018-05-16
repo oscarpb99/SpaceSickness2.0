@@ -60,17 +60,9 @@ public class PlayerController : MonoBehaviour
 
     void Movimiento()
 	{
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
 
-        if (x > 0)
-            x = 1;
-        else if (x < 0)
-            x = -1;
-        if (y > 0)
-            y = 1;
-        else if (y < 0)
-            y = -1;
         DireccionGravedad direccionActual = GameManager.instance.salaactual.GetComponent<GuardaGravedad>().GetDireccion();
 		if (direccionActual == DireccionGravedad.Gravedad0) {
 			
@@ -93,22 +85,22 @@ public class PlayerController : MonoBehaviour
 		else {
 			if (direccionActual == DireccionGravedad.Derecha)
 			{
-				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, y * speed);
+				rb.velocity = new Vector2(0, y * speed);
 
 			} 
 			else if (direccionActual == DireccionGravedad.Izquierda)
 			{
-				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, y * speed);
+				rb.velocity = new Vector2(0, y * speed);
 
 			}
 			else if (direccionActual == DireccionGravedad.Abajo)
 			{
-                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(x * speed, 0);
+				rb.velocity = new Vector2(x * speed, 0);
 			}
 			else
 			{
 
-				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(x * speed, 0);
+				rb.velocity = new Vector2(x * speed, 0);
 			}
 		}
 	}
