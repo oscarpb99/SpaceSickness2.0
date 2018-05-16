@@ -11,8 +11,6 @@ public enum IdTarjeta
 }
 
 public class Tarjetas : MonoBehaviour {
-
-
     public static Tarjetas instance = null;
     private const uint numTarjetas = 3;
     private bool[] estadoTarjetas = new bool[numTarjetas];
@@ -29,7 +27,7 @@ public class Tarjetas : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 
     public bool getOpen(IdTarjeta id)
