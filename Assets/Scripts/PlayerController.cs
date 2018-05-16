@@ -51,7 +51,6 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        GameManager.instance.cayendo = !controlmovimiento;
         Falling();
 
         if (controlmovimiento)

@@ -35,7 +35,7 @@ public class CambioGravedad : MonoBehaviour {
 
     private void FixedUpdate() {
 
-        if (!GameManager.instance.cayendo)
+		if (Mathf.Abs(rb.velocity.x) <= margenmovimiento && Mathf.Abs(rb.velocity.y)<= margenmovimiento)
         {
             CambiarGravedad();
         }

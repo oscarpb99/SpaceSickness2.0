@@ -17,7 +17,6 @@ public class GameManager : MonoBehaviour {
 	public float oxigeno;//cantidad de oxigeno restante en el tanque del jugador
 	public float maxoxigeno=600;
 	public GameObject oxigenbar;
-    public bool cayendo = true;
     public IndicadorGravedad indicador;
 	public float gastoxigen=0.01f;
 	GameObject camerapos;
