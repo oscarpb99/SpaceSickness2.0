@@ -22,6 +22,7 @@ public class ObjetoTarjeta : MonoBehaviour {
         {
             gameObject.SetActive(false);
             Tarjetas.instance.setOpen(id, true);
+			Hud.instance.SetTarjeta (id);
         }
     }
 }
