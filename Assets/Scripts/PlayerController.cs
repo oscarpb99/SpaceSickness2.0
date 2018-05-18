@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 	public float limitspeed = 10f;//límite de velocidad de propulsión en grav0
 	public AudioSource pasos;
 	public float volumen=1.0f;
+	public float deceleraciongrav0=0.1f;
 
 
 
@@ -69,6 +70,7 @@ public class PlayerController : MonoBehaviour
 			int propulsionx = 0;
 			int propulsiony = 0;
 
+
 			if (rb.velocity.x > -limitspeed && rb.velocity.x < limitspeed || rb.velocity.x <= -limitspeed && x > 0 || rb.velocity.x >= limitspeed && x < 0)//permitir la propulsión en el eje x si no se pasa del limite de velocidad
 				propulsionx = 1;
 
@@ -79,6 +81,10 @@ public class PlayerController : MonoBehaviour
 
 			if (propulsionx == 1 && x != 0 || propulsiony == 1 && y != 0)
 				GameManager.instance.PropulsaOxigeno ();
+			if (x == 0)
+				rb.velocity = new Vector2 (rb.velocity.x-rb.velocity.x*deceleraciongrav0, rb.velocity.y);
+			if(y==0)
+				rb.velocity = new Vector2 (rb.velocity.x, rb.velocity.y-rb.velocity.y*deceleraciongrav0);
 		}
 
 		else {

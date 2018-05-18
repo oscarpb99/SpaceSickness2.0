@@ -79,6 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prAumentooxigen: 1
+  clip: {fileID: 0}
 --- !u!212 &212371186519805114
 SpriteRenderer:
   m_ObjectHideFlags: 1
