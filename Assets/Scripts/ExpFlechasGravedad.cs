@@ -10,9 +10,9 @@ public class ExpFlechasGravedad : MonoBehaviour {
 		}
 	
 	}
-	void OnTriggerExit2D(Collider2D col){
-		if (col.tag == "player") {
-			panel.SetActive(false);
+	void Update(){
+		if(Input.GetKeyDown(KeyCode.Space)){
+			panel.SetActive (false);
 		}
 	}
 }
