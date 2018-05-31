@@ -23,23 +23,12 @@ public class CambioGravedad : MonoBehaviour {
 
     void Update() {
 
-        if (Mathf.Abs(rb.velocity.x) <= margenmovimiento && Mathf.Abs(rb.velocity.y) <= margenmovimiento)
-        {
-            //			CambiarGravedad ();
-        }
-        //GameManager.instance.grav = sala.GetComponent<GuardaGravedad> ().gravedadsala;//cambia el estado de gravedad que guarda el gamemanager por el de la sala actual
-
+		CambiarGravedad();
         if (sala != null)
             GameManager.instance.salaactual = sala;
     }
 
-    private void FixedUpdate() {
-
-		if (Mathf.Abs(rb.velocity.x) <= margenmovimiento && Mathf.Abs(rb.velocity.y)<= margenmovimiento)
-        {
-            CambiarGravedad();
-        }
-    }
+  
 
     void CambiarGravedad(){
 		 //cambia la variable de estado de gravedad en la sala actual
