@@ -22,8 +22,7 @@ public class CambioGravedad : MonoBehaviour {
 
 
     void Update() {
-
-		CambiarGravedad();
+		if(gameObject.GetComponent<PlayerController>().controlmovimiento)CambiarGravedad();
         if (sala != null)
             GameManager.instance.salaactual = sala;
     }
