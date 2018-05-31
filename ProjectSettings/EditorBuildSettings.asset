@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prototipo_nivel.unity
     guid: e5390a8ea534bc0448dc32a5aa109c02
+  - enabled: 1
+    path: Assets/Scenes/Controles.unity
+    guid: f52b9261180f5fa4a964bb753a601049
